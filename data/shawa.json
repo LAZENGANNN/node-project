@@ -1,0 +1,4333 @@
+[
+    {
+      "id": 3008846104,
+      "name": "Классическая L",
+      "description": "",
+      "descriptions": [
+        {
+          "title": "Состав",
+          "text": "Лаваш, курица гриль, капуста, огурец, томат, соус",
+          "expanded_text": "Весь состав",
+          "collapsed_text": "Свернуть",
+          "collapsed_text_lines_count": 3
+        }
+      ],
+      "available": true,
+      "inStock": null,
+      "price": 10,
+      "decimalPrice": "9.5",
+      "promoTypes": [],
+      "optionsGroups": [
+        {
+          "id": 2024091432,
+          "name": "Дополнительно",
+          "options": [
+            {
+              "id": 30291236630,
+              "name": "Огурец маринованный",
+              "price": 2,
+              "decimalPrice": "1.5",
+              "multiplier": 1
+            },
+            {
+              "id": 30291236631,
+              "name": "Оливки",
+              "price": 2,
+              "decimalPrice": "1.5",
+              "multiplier": 1
+            },
+            {
+              "id": 30291236632,
+              "name": "Томат",
+              "price": 2,
+              "decimalPrice": "1.5",
+              "multiplier": 1
+            },
+            {
+              "id": 30291236633,
+              "name": "Сыр",
+              "price": 2,
+              "decimalPrice": "1.5",
+              "multiplier": 1
+            },
+            {
+              "id": 30291236634,
+              "name": "Халапеньо",
+              "price": 2,
+              "decimalPrice": "1.5",
+              "multiplier": 1
+            },
+            {
+              "id": 30291236635,
+              "name": "Грибы",
+              "price": 2,
+              "decimalPrice": "1.5",
+              "multiplier": 1
+            }
+          ],
+          "required": false,
+          "minSelected": 0,
+          "maxSelected": 1
+        },
+        {
+          "id": 2024091433,
+          "name": "Соус на выбор",
+          "options": [
+            {
+              "id": 30291236636,
+              "name": "Чили",
+              "price": 2,
+              "decimalPrice": "1.5",
+              "multiplier": 1
+            },
+            {
+              "id": 30291236638,
+              "name": "Сырный",
+              "price": 2,
+              "decimalPrice": "1.5",
+              "multiplier": 1
+            },
+            {
+              "id": 30291236639,
+              "name": "BBQ",
+              "price": 2,
+              "decimalPrice": "1.5",
+              "multiplier": 1
+            },
+            {
+              "id": 30291236640,
+              "name": "Горчичный",
+              "price": 2,
+              "decimalPrice": "1.5",
+              "multiplier": 1
+            },
+            {
+              "id": 30291236641,
+              "name": "Кавказский",
+              "price": 2,
+              "decimalPrice": "1.5",
+              "multiplier": 1
+            },
+            {
+              "id": 30291236642,
+              "name": "Кисло-сладкий",
+              "price": 2,
+              "decimalPrice": "1.5",
+              "multiplier": 1
+            }
+          ],
+          "required": false,
+          "minSelected": 0,
+          "maxSelected": 1
+        }
+      ],
+      "picture": {
+        "uri": "/images/3512182/3826d46eb8be43ea8b1e05b15690db9f-{w}x{h}.jpeg",
+        "ratio": 1,
+        "scale": "aspect_fill"
+      },
+      "weight": "350 г",
+      "adult": false,
+      "shippingType": "all",
+      "measure": {
+        "value": "350",
+        "measure_unit": "g"
+      },
+      "publicId": "7ff1df02-23a4-4aa5-bfea-0035d0223c5d"
+    },
+    {
+      "id": 3008846105,
+      "name": "Классическая XL",
+      "description": "",
+      "descriptions": [
+        {
+          "title": "Состав",
+          "text": "Лаваш, курица гриль, капуста, огурец, томат, соус",
+          "expanded_text": "Весь состав",
+          "collapsed_text": "Свернуть",
+          "collapsed_text_lines_count": 3
+        }
+      ],
+      "available": true,
+      "inStock": null,
+      "price": 12,
+      "decimalPrice": "12",
+      "promoTypes": [],
+      "optionsGroups": [
+        {
+          "id": 2024091434,
+          "name": "Добавки",
+          "options": [
+            {
+              "id": 30291236643,
+              "name": "Томат свежий",
+              "price": 2,
+              "decimalPrice": "1.5",
+              "multiplier": 1
+            },
+            {
+              "id": 30291236644,
+              "name": "Курица гриль",
+              "price": 3,
+              "decimalPrice": "3",
+              "multiplier": 1
+            },
+            {
+              "id": 30291236645,
+              "name": "Колбаска BBQ",
+              "price": 3,
+              "decimalPrice": "3",
+              "multiplier": 1
+            },
+            {
+              "id": 30291236646,
+              "name": "Огурец маринованный",
+              "price": 2,
+              "decimalPrice": "1.5",
+              "multiplier": 1
+            },
+            {
+              "id": 30291236647,
+              "name": "Лук маринованный",
+              "price": 1,
+              "decimalPrice": "0.75",
+              "multiplier": 1
+            },
+            {
+              "id": 30291236648,
+              "name": "Морковь по-корейски",
+              "price": 1,
+              "decimalPrice": "0.75",
+              "multiplier": 1
+            },
+            {
+              "id": 30291236649,
+              "name": "Оливки",
+              "price": 2,
+              "decimalPrice": "1.5",
+              "multiplier": 1
+            },
+            {
+              "id": 30291236650,
+              "name": "Сыр",
+              "price": 2,
+              "decimalPrice": "1.5",
+              "multiplier": 1
+            },
+            {
+              "id": 30291236651,
+              "name": "Халапеньо",
+              "price": 2,
+              "decimalPrice": "1.5",
+              "multiplier": 1
+            },
+            {
+              "id": 30291236652,
+              "name": "Грибы",
+              "price": 2,
+              "decimalPrice": "1.5",
+              "multiplier": 1
+            },
+            {
+              "id": 30291236653,
+              "name": "Картофель фри",
+              "price": 2,
+              "decimalPrice": "1.5",
+              "multiplier": 1
+            }
+          ],
+          "required": false,
+          "minSelected": 0,
+          "maxSelected": 1
+        },
+        {
+          "id": 2024091435,
+          "name": "Соусы",
+          "options": [
+            {
+              "id": 30291236655,
+              "name": "Чили",
+              "price": 2,
+              "decimalPrice": "1.5",
+              "multiplier": 1
+            },
+            {
+              "id": 30291236658,
+              "name": "Сырный",
+              "price": 2,
+              "decimalPrice": "1.5",
+              "multiplier": 1
+            },
+            {
+              "id": 30291236659,
+              "name": "BBQ",
+              "price": 2,
+              "decimalPrice": "1.5",
+              "multiplier": 1
+            },
+            {
+              "id": 30291236660,
+              "name": "Горчичный",
+              "price": 2,
+              "decimalPrice": "1.5",
+              "multiplier": 1
+            },
+            {
+              "id": 30291236661,
+              "name": "Кавказский",
+              "price": 2,
+              "decimalPrice": "1.5",
+              "multiplier": 1
+            },
+            {
+              "id": 30291236662,
+              "name": "Кисло-сладкий",
+              "price": 2,
+              "decimalPrice": "1.5",
+              "multiplier": 1
+            }
+          ],
+          "required": false,
+          "minSelected": 0,
+          "maxSelected": 1
+        }
+      ],
+      "picture": {
+        "uri": "/images/3781088/62473334d2e2442aa7caaca2337b7518-{w}x{h}.jpeg",
+        "ratio": 1,
+        "scale": "aspect_fill"
+      },
+      "weight": "450 г",
+      "adult": false,
+      "shippingType": "all",
+      "measure": {
+        "value": "450",
+        "measure_unit": "g"
+      },
+      "publicId": "f44693bc-a32d-45be-b130-dc204f7483a2",
+      "badges": [
+        {
+          "text": {
+            "value": "МЕГАПОРЦИЯ",
+            "color": {
+              "light": "#FFFFFF",
+              "dark": "#FFFFFF"
+            }
+          },
+          "background": {
+            "light": "#3C3B3A",
+            "dark": "#3C3B3A"
+          }
+        }
+      ],
+      "badges_preview": [
+        {
+          "text": {
+            "value": "МЕГАПОРЦИЯ",
+            "color": {
+              "light": "#FFFFFF",
+              "dark": "#FFFFFF"
+            }
+          },
+          "background": {
+            "light": "#3C3B3A",
+            "dark": "#3C3B3A"
+          }
+        }
+      ]
+    },
+    {
+      "id": 3008846106,
+      "name": "Классическая XXL",
+      "description": "",
+      "descriptions": [
+        {
+          "title": "Состав",
+          "text": "Лаваш, курица гриль, капуста, огурец, томат, соус",
+          "expanded_text": "Весь состав",
+          "collapsed_text": "Свернуть",
+          "collapsed_text_lines_count": 3
+        }
+      ],
+      "available": true,
+      "inStock": null,
+      "price": 15,
+      "decimalPrice": "14.5",
+      "promoTypes": [],
+      "optionsGroups": [
+        {
+          "id": 2024091436,
+          "name": "Соус на выбор",
+          "options": [
+            {
+              "id": 30291236664,
+              "name": "Чили",
+              "price": 2,
+              "decimalPrice": "1.5",
+              "multiplier": 1
+            },
+            {
+              "id": 30291236667,
+              "name": "Сырный",
+              "price": 2,
+              "decimalPrice": "1.5",
+              "multiplier": 1
+            },
+            {
+              "id": 30291236668,
+              "name": "BBQ",
+              "price": 2,
+              "decimalPrice": "1.5",
+              "multiplier": 1
+            },
+            {
+              "id": 30291236669,
+              "name": "Горчичный",
+              "price": 2,
+              "decimalPrice": "1.5",
+              "multiplier": 1
+            },
+            {
+              "id": 30291236670,
+              "name": "Кавказский",
+              "price": 2,
+              "decimalPrice": "1.5",
+              "multiplier": 1
+            },
+            {
+              "id": 30291236671,
+              "name": "Кисло-сладкий",
+              "price": 2,
+              "decimalPrice": "1.5",
+              "multiplier": 1
+            }
+          ],
+          "required": false,
+          "minSelected": 0,
+          "maxSelected": 1
+        },
+        {
+          "id": 2024091437,
+          "name": "Дополнительно",
+          "options": [
+            {
+              "id": 30291236672,
+              "name": "Томат свежий",
+              "price": 2,
+              "decimalPrice": "1.5",
+              "multiplier": 1
+            },
+            {
+              "id": 30291236673,
+              "name": "Курица гриль",
+              "price": 3,
+              "decimalPrice": "3",
+              "multiplier": 1
+            },
+            {
+              "id": 30291236674,
+              "name": "Колбаска BBQ",
+              "price": 3,
+              "decimalPrice": "3",
+              "multiplier": 1
+            },
+            {
+              "id": 30291236675,
+              "name": "Огурец маринованный",
+              "price": 2,
+              "decimalPrice": "1.5",
+              "multiplier": 1
+            },
+            {
+              "id": 30291236676,
+              "name": "Лук маринованный",
+              "price": 1,
+              "decimalPrice": "0.75",
+              "multiplier": 1
+            },
+            {
+              "id": 30291236677,
+              "name": "Морковь по-корейски",
+              "price": 1,
+              "decimalPrice": "0.75",
+              "multiplier": 1
+            },
+            {
+              "id": 30291236678,
+              "name": "Оливки",
+              "price": 2,
+              "decimalPrice": "1.5",
+              "multiplier": 1
+            },
+            {
+              "id": 30291236679,
+              "name": "Сыр",
+              "price": 2,
+              "decimalPrice": "1.5",
+              "multiplier": 1
+            },
+            {
+              "id": 30291236680,
+              "name": "Халапеньо",
+              "price": 2,
+              "decimalPrice": "1.5",
+              "multiplier": 1
+            },
+            {
+              "id": 30291236681,
+              "name": "Грибы",
+              "price": 2,
+              "decimalPrice": "1.5",
+              "multiplier": 1
+            },
+            {
+              "id": 30291236682,
+              "name": "Картофель фри",
+              "price": 2,
+              "decimalPrice": "1.5",
+              "multiplier": 1
+            }
+          ],
+          "required": false,
+          "minSelected": 0,
+          "maxSelected": 1
+        }
+      ],
+      "picture": {
+        "uri": "/images/3513074/7cad5513395b4f138245fa8cdbb4ec68-{w}x{h}.jpeg",
+        "ratio": 1,
+        "scale": "aspect_fill"
+      },
+      "weight": "550 г",
+      "adult": false,
+      "shippingType": "all",
+      "measure": {
+        "value": "550",
+        "measure_unit": "g"
+      },
+      "nutrients_detailed": {
+        "calories": {
+          "name": "ккал",
+          "value": "195",
+          "unit": "ккал"
+        },
+        "proteins": {
+          "name": "белки",
+          "value": "19",
+          "unit": "г"
+        },
+        "fats": {
+          "name": "жиры",
+          "value": "10",
+          "unit": "г"
+        },
+        "carbohydrates": {
+          "name": "углеводы",
+          "value": "7",
+          "unit": "г"
+        },
+        "description": {
+          "value": "На 100 г по открытым данным для подобных блюд"
+        }
+      },
+      "publicId": "5d6f868f-dadd-4c7f-9262-a53919399b49",
+      "badges": [
+        {
+          "text": {
+            "value": "МЕГАПОРЦИЯ",
+            "color": {
+              "light": "#FFFFFF",
+              "dark": "#FFFFFF"
+            }
+          },
+          "background": {
+            "light": "#3C3B3A",
+            "dark": "#3C3B3A"
+          }
+        }
+      ],
+      "badges_preview": [
+        {
+          "text": {
+            "value": "МЕГАПОРЦИЯ",
+            "color": {
+              "light": "#FFFFFF",
+              "dark": "#FFFFFF"
+            }
+          },
+          "background": {
+            "light": "#3C3B3A",
+            "dark": "#3C3B3A"
+          }
+        }
+      ]
+    },
+    {
+      "id": 3008846107,
+      "name": "Королевская",
+      "description": "",
+      "descriptions": [
+        {
+          "title": "Состав",
+          "text": "Лаваш, курица гриль, капуста, огурец, грибы, томат, соус",
+          "expanded_text": "Весь состав",
+          "collapsed_text": "Свернуть",
+          "collapsed_text_lines_count": 3
+        }
+      ],
+      "available": true,
+      "inStock": null,
+      "price": 18,
+      "decimalPrice": "18",
+      "promoTypes": [],
+      "optionsGroups": [
+        {
+          "id": 2024091438,
+          "name": "Добавки",
+          "options": [
+            {
+              "id": 30291236683,
+              "name": "Томат свежий",
+              "price": 2,
+              "decimalPrice": "1.5",
+              "multiplier": 1
+            },
+            {
+              "id": 30291236684,
+              "name": "Курица гриль",
+              "price": 3,
+              "decimalPrice": "3",
+              "multiplier": 1
+            },
+            {
+              "id": 30291236685,
+              "name": "Колбаска BBQ",
+              "price": 3,
+              "decimalPrice": "3",
+              "multiplier": 1
+            },
+            {
+              "id": 30291236686,
+              "name": "Огурец маринованный",
+              "price": 2,
+              "decimalPrice": "1.5",
+              "multiplier": 1
+            },
+            {
+              "id": 30291236687,
+              "name": "Лук маринованный",
+              "price": 1,
+              "decimalPrice": "0.75",
+              "multiplier": 1
+            },
+            {
+              "id": 30291236688,
+              "name": "Морковь по-корейски",
+              "price": 1,
+              "decimalPrice": "0.75",
+              "multiplier": 1
+            },
+            {
+              "id": 30291236689,
+              "name": "Оливки",
+              "price": 2,
+              "decimalPrice": "1.5",
+              "multiplier": 1
+            },
+            {
+              "id": 30291236690,
+              "name": "Сыр",
+              "price": 2,
+              "decimalPrice": "1.5",
+              "multiplier": 1
+            },
+            {
+              "id": 30291236691,
+              "name": "Халапеньо",
+              "price": 2,
+              "decimalPrice": "1.5",
+              "multiplier": 1
+            },
+            {
+              "id": 30291236692,
+              "name": "Грибы",
+              "price": 2,
+              "decimalPrice": "1.5",
+              "multiplier": 1
+            },
+            {
+              "id": 30291236693,
+              "name": "Картофель фри",
+              "price": 2,
+              "decimalPrice": "1.5",
+              "multiplier": 1
+            }
+          ],
+          "required": false,
+          "minSelected": 0,
+          "maxSelected": 1
+        },
+        {
+          "id": 2024091439,
+          "name": "Соусы",
+          "options": [
+            {
+              "id": 30291236695,
+              "name": "Чили",
+              "price": 2,
+              "decimalPrice": "1.5",
+              "multiplier": 1
+            },
+            {
+              "id": 30291236698,
+              "name": "Сырный",
+              "price": 2,
+              "decimalPrice": "1.5",
+              "multiplier": 1
+            },
+            {
+              "id": 30291236699,
+              "name": "BBQ",
+              "price": 2,
+              "decimalPrice": "1.5",
+              "multiplier": 1
+            },
+            {
+              "id": 30291236700,
+              "name": "Горчичный",
+              "price": 2,
+              "decimalPrice": "1.5",
+              "multiplier": 1
+            },
+            {
+              "id": 30291236701,
+              "name": "Кавказский",
+              "price": 2,
+              "decimalPrice": "1.5",
+              "multiplier": 1
+            },
+            {
+              "id": 30291236702,
+              "name": "Кисло-сладкий",
+              "price": 2,
+              "decimalPrice": "1.5",
+              "multiplier": 1
+            }
+          ],
+          "required": false,
+          "minSelected": 0,
+          "maxSelected": 1
+        }
+      ],
+      "picture": {
+        "uri": "/images/1380298/eb186dafade348f6b7d464a84401c58e-{w}x{h}.jpeg",
+        "ratio": 1,
+        "scale": "aspect_fill"
+      },
+      "weight": "800 г",
+      "adult": false,
+      "shippingType": "all",
+      "measure": {
+        "value": "800",
+        "measure_unit": "g"
+      },
+      "nutrients_detailed": {
+        "calories": {
+          "name": "ккал",
+          "value": "150",
+          "unit": "ккал"
+        },
+        "proteins": {
+          "name": "белки",
+          "value": "4",
+          "unit": "г"
+        },
+        "fats": {
+          "name": "жиры",
+          "value": "3",
+          "unit": "г"
+        },
+        "carbohydrates": {
+          "name": "углеводы",
+          "value": "27",
+          "unit": "г"
+        },
+        "description": {
+          "value": "На 100 г по открытым данным для подобных блюд"
+        }
+      },
+      "publicId": "9c09ba73-b5e4-4377-8163-a06117e9b4ca"
+    },
+    {
+      "id": 3008846108,
+      "name": "Баварская L",
+      "description": "",
+      "descriptions": [
+        {
+          "title": "Состав",
+          "text": "Лаваш, курица гриль, колбаски BBQ, капуста, огурец, горчица, томат, соус, кетчуп",
+          "expanded_text": "Весь состав",
+          "collapsed_text": "Свернуть",
+          "collapsed_text_lines_count": 3
+        }
+      ],
+      "available": true,
+      "inStock": null,
+      "price": 12,
+      "decimalPrice": "11.5",
+      "promoTypes": [],
+      "optionsGroups": [
+        {
+          "id": 2024091440,
+          "name": "Добавки",
+          "options": [
+            {
+              "id": 30291236703,
+              "name": "Томат свежий",
+              "price": 2,
+              "decimalPrice": "1.5",
+              "multiplier": 1
+            },
+            {
+              "id": 30291236704,
+              "name": "Колбаски BBQ",
+              "price": 3,
+              "decimalPrice": "3",
+              "multiplier": 1
+            },
+            {
+              "id": 30291236705,
+              "name": "Курица гриль",
+              "price": 3,
+              "decimalPrice": "3",
+              "multiplier": 1
+            },
+            {
+              "id": 30291236706,
+              "name": "Огурец маринованный",
+              "price": 2,
+              "decimalPrice": "1.5",
+              "multiplier": 1
+            },
+            {
+              "id": 30291236707,
+              "name": "Лук маринованный",
+              "price": 1,
+              "decimalPrice": "0.75",
+              "multiplier": 1
+            },
+            {
+              "id": 30291236708,
+              "name": "Морковь по-корейски",
+              "price": 1,
+              "decimalPrice": "0.75",
+              "multiplier": 1
+            },
+            {
+              "id": 30291236709,
+              "name": "Оливки",
+              "price": 2,
+              "decimalPrice": "1.5",
+              "multiplier": 1
+            },
+            {
+              "id": 30291236710,
+              "name": "Сыр",
+              "price": 2,
+              "decimalPrice": "1.5",
+              "multiplier": 1
+            },
+            {
+              "id": 30291236711,
+              "name": "Халапеньо",
+              "price": 2,
+              "decimalPrice": "1.5",
+              "multiplier": 1
+            },
+            {
+              "id": 30291236712,
+              "name": "Грибы",
+              "price": 2,
+              "decimalPrice": "1.5",
+              "multiplier": 1
+            },
+            {
+              "id": 30291236713,
+              "name": "Картофель фри",
+              "price": 2,
+              "decimalPrice": "1.5",
+              "multiplier": 1
+            }
+          ],
+          "required": false,
+          "minSelected": 0,
+          "maxSelected": 1
+        }
+      ],
+      "picture": {
+        "uri": "/images/3709189/7b59aa59af0549a9b065ab1547f32479-{w}x{h}.jpeg",
+        "ratio": 1,
+        "scale": "aspect_fill"
+      },
+      "weight": "350 г",
+      "adult": false,
+      "shippingType": "all",
+      "measure": {
+        "value": "350",
+        "measure_unit": "g"
+      },
+      "nutrients_detailed": {
+        "calories": {
+          "name": "ккал",
+          "value": "203",
+          "unit": "ккал"
+        },
+        "proteins": {
+          "name": "белки",
+          "value": "21",
+          "unit": "г"
+        },
+        "fats": {
+          "name": "жиры",
+          "value": "9",
+          "unit": "г"
+        },
+        "carbohydrates": {
+          "name": "углеводы",
+          "value": "7",
+          "unit": "г"
+        },
+        "description": {
+          "value": "На 100 г по открытым данным для подобных блюд"
+        }
+      },
+      "publicId": "f0b3dbc8-2479-4696-b766-3f1d9ef24bc9"
+    },
+    {
+      "id": 3008846109,
+      "name": "Баварская XL",
+      "description": "",
+      "descriptions": [
+        {
+          "title": "Состав",
+          "text": "Лаваш, курица гриль, колбаски BBQ, капуста, огурец, горчица, томат, соус, кетчуп",
+          "expanded_text": "Весь состав",
+          "collapsed_text": "Свернуть",
+          "collapsed_text_lines_count": 3
+        }
+      ],
+      "available": true,
+      "inStock": null,
+      "price": 14,
+      "decimalPrice": "13.5",
+      "promoTypes": [],
+      "optionsGroups": [
+        {
+          "id": 2024091441,
+          "name": "Дополнительно",
+          "options": [
+            {
+              "id": 30291236714,
+              "name": "Томат свежий",
+              "price": 2,
+              "decimalPrice": "1.5",
+              "multiplier": 1
+            },
+            {
+              "id": 30291236715,
+              "name": "Курица гриль",
+              "price": 3,
+              "decimalPrice": "3",
+              "multiplier": 1
+            },
+            {
+              "id": 30291236716,
+              "name": "Колбаска BBQ",
+              "price": 3,
+              "decimalPrice": "3",
+              "multiplier": 1
+            },
+            {
+              "id": 30291236717,
+              "name": "Огурец маринованный",
+              "price": 2,
+              "decimalPrice": "1.5",
+              "multiplier": 1
+            },
+            {
+              "id": 30291236718,
+              "name": "Лук маринованный",
+              "price": 1,
+              "decimalPrice": "0.75",
+              "multiplier": 1
+            },
+            {
+              "id": 30291236719,
+              "name": "Морковь по-корейски",
+              "price": 1,
+              "decimalPrice": "0.75",
+              "multiplier": 1
+            },
+            {
+              "id": 30291236720,
+              "name": "Оливки",
+              "price": 2,
+              "decimalPrice": "1.5",
+              "multiplier": 1
+            },
+            {
+              "id": 30291236721,
+              "name": "Сыр",
+              "price": 2,
+              "decimalPrice": "1.5",
+              "multiplier": 1
+            },
+            {
+              "id": 30291236722,
+              "name": "Халапеньо",
+              "price": 2,
+              "decimalPrice": "1.5",
+              "multiplier": 1
+            },
+            {
+              "id": 30291236723,
+              "name": "Грибы",
+              "price": 2,
+              "decimalPrice": "1.5",
+              "multiplier": 1
+            },
+            {
+              "id": 30291236724,
+              "name": "Картофель фри",
+              "price": 2,
+              "decimalPrice": "1.5",
+              "multiplier": 1
+            }
+          ],
+          "required": false,
+          "minSelected": 0,
+          "maxSelected": 1
+        },
+        {
+          "id": 2024091442,
+          "name": "Соус на выбор",
+          "options": [
+            {
+              "id": 30291236725,
+              "name": "Чили",
+              "price": 2,
+              "decimalPrice": "1.5",
+              "multiplier": 1
+            },
+            {
+              "id": 30291236726,
+              "name": "Сырный",
+              "price": 2,
+              "decimalPrice": "1.5",
+              "multiplier": 1
+            },
+            {
+              "id": 30291236727,
+              "name": "BBQ",
+              "price": 2,
+              "decimalPrice": "1.5",
+              "multiplier": 1
+            },
+            {
+              "id": 30291236728,
+              "name": "Горчичный",
+              "price": 2,
+              "decimalPrice": "1.5",
+              "multiplier": 1
+            },
+            {
+              "id": 30291236729,
+              "name": "Кавказский",
+              "price": 2,
+              "decimalPrice": "1.5",
+              "multiplier": 1
+            },
+            {
+              "id": 30291236730,
+              "name": "Кисло-сладкий",
+              "price": 2,
+              "decimalPrice": "1.5",
+              "multiplier": 1
+            }
+          ],
+          "required": false,
+          "minSelected": 0,
+          "maxSelected": 1
+        }
+      ],
+      "picture": {
+        "uri": "/images/3378693/aa80774161ba41c993ea6836135f2511-{w}x{h}.jpeg",
+        "ratio": 1,
+        "scale": "aspect_fill"
+      },
+      "weight": "500 г",
+      "adult": false,
+      "shippingType": "all",
+      "measure": {
+        "value": "500",
+        "measure_unit": "g"
+      },
+      "nutrients_detailed": {
+        "calories": {
+          "name": "ккал",
+          "value": "242",
+          "unit": "ккал"
+        },
+        "proteins": {
+          "name": "белки",
+          "value": "11",
+          "unit": "г"
+        },
+        "fats": {
+          "name": "жиры",
+          "value": "12",
+          "unit": "г"
+        },
+        "carbohydrates": {
+          "name": "углеводы",
+          "value": "22",
+          "unit": "г"
+        },
+        "description": {
+          "value": "На 100 г по открытым данным для подобных блюд"
+        }
+      },
+      "publicId": "4867dbaf-56ca-468d-ac03-04d5e78a1187",
+      "badges": [
+        {
+          "text": {
+            "value": "МЕГАПОРЦИЯ",
+            "color": {
+              "light": "#FFFFFF",
+              "dark": "#FFFFFF"
+            }
+          },
+          "background": {
+            "light": "#3C3B3A",
+            "dark": "#3C3B3A"
+          }
+        }
+      ],
+      "badges_preview": [
+        {
+          "text": {
+            "value": "МЕГАПОРЦИЯ",
+            "color": {
+              "light": "#FFFFFF",
+              "dark": "#FFFFFF"
+            }
+          },
+          "background": {
+            "light": "#3C3B3A",
+            "dark": "#3C3B3A"
+          }
+        }
+      ]
+    },
+    {
+      "id": 3008846110,
+      "name": "Гавайская L",
+      "description": "",
+      "descriptions": [
+        {
+          "title": "Состав",
+          "text": "Лаваш, курица-гриль, ананас, капуста, огурец, томат, кисло-сладкий соус",
+          "expanded_text": "Весь состав",
+          "collapsed_text": "Свернуть",
+          "collapsed_text_lines_count": 3
+        }
+      ],
+      "available": true,
+      "inStock": null,
+      "price": 12,
+      "decimalPrice": "11.5",
+      "promoTypes": [],
+      "optionsGroups": [
+        {
+          "id": 2024091443,
+          "name": "Добавки",
+          "options": [
+            {
+              "id": 30291236731,
+              "name": "Томат свежий",
+              "price": 2,
+              "decimalPrice": "1.5",
+              "multiplier": 1
+            },
+            {
+              "id": 30291236732,
+              "name": "Морковь по- корейски",
+              "price": 1,
+              "decimalPrice": "0.75",
+              "multiplier": 1
+            },
+            {
+              "id": 30291236733,
+              "name": "Колбаска BBQ",
+              "price": 3,
+              "decimalPrice": "3",
+              "multiplier": 1
+            },
+            {
+              "id": 30291236734,
+              "name": "Огурец маринованный",
+              "price": 2,
+              "decimalPrice": "1.5",
+              "multiplier": 1
+            },
+            {
+              "id": 30291236735,
+              "name": "Лук маринованный",
+              "price": 1,
+              "decimalPrice": "0.75",
+              "multiplier": 1
+            },
+            {
+              "id": 30291236736,
+              "name": "Оливки",
+              "price": 2,
+              "decimalPrice": "1.5",
+              "multiplier": 1
+            },
+            {
+              "id": 30291236737,
+              "name": "Сыр",
+              "price": 2,
+              "decimalPrice": "1.5",
+              "multiplier": 1
+            },
+            {
+              "id": 30291236738,
+              "name": "Халапеньо",
+              "price": 2,
+              "decimalPrice": "1.5",
+              "multiplier": 1
+            },
+            {
+              "id": 30291236739,
+              "name": "Курица-гриль",
+              "price": 3,
+              "decimalPrice": "3",
+              "multiplier": 1
+            },
+            {
+              "id": 30291236740,
+              "name": "Грибы",
+              "price": 2,
+              "decimalPrice": "1.5",
+              "multiplier": 1
+            },
+            {
+              "id": 30291236741,
+              "name": "Картофель фри",
+              "price": 2,
+              "decimalPrice": "1.5",
+              "multiplier": 1
+            }
+          ],
+          "required": false,
+          "minSelected": 0,
+          "maxSelected": 1
+        },
+        {
+          "id": 2024091444,
+          "name": "Соусы",
+          "options": [
+            {
+              "id": 30291236743,
+              "name": "Чили",
+              "price": 2,
+              "decimalPrice": "1.5",
+              "multiplier": 1
+            },
+            {
+              "id": 30291236746,
+              "name": "Сырный",
+              "price": 2,
+              "decimalPrice": "1.5",
+              "multiplier": 1
+            },
+            {
+              "id": 30291236747,
+              "name": "BBQ",
+              "price": 2,
+              "decimalPrice": "1.5",
+              "multiplier": 1
+            },
+            {
+              "id": 30291236748,
+              "name": "Горчичный",
+              "price": 2,
+              "decimalPrice": "1.5",
+              "multiplier": 1
+            },
+            {
+              "id": 30291236749,
+              "name": "Кавказский",
+              "price": 2,
+              "decimalPrice": "1.5",
+              "multiplier": 1
+            },
+            {
+              "id": 30291236750,
+              "name": "Кисло-сладкий",
+              "price": 2,
+              "decimalPrice": "1.5",
+              "multiplier": 1
+            }
+          ],
+          "required": false,
+          "minSelected": 0,
+          "maxSelected": 1
+        }
+      ],
+      "picture": {
+        "uri": "/images/3807631/9d1ce2aefd1a466394999d66696497fa-{w}x{h}.jpeg",
+        "ratio": 1,
+        "scale": "aspect_fill"
+      },
+      "weight": "350 г",
+      "adult": false,
+      "shippingType": "all",
+      "measure": {
+        "value": "350",
+        "measure_unit": "g"
+      },
+      "nutrients_detailed": {
+        "calories": {
+          "name": "ккал",
+          "value": "212",
+          "unit": "ккал"
+        },
+        "proteins": {
+          "name": "белки",
+          "value": "8",
+          "unit": "г"
+        },
+        "fats": {
+          "name": "жиры",
+          "value": "6",
+          "unit": "г"
+        },
+        "carbohydrates": {
+          "name": "углеводы",
+          "value": "23",
+          "unit": "г"
+        },
+        "description": {
+          "value": "На 100 г по открытым данным для подобных блюд"
+        }
+      },
+      "publicId": "4beebd9b-0eca-4afa-b493-ae6f35128f79"
+    },
+    {
+      "id": 3008846111,
+      "name": "Гавайская XL",
+      "description": "",
+      "descriptions": [
+        {
+          "title": "Состав",
+          "text": "Лаваш, курица гриль, ананас, капуста, огурец, томат, кисло-сладкий соус",
+          "expanded_text": "Весь состав",
+          "collapsed_text": "Свернуть",
+          "collapsed_text_lines_count": 3
+        }
+      ],
+      "available": true,
+      "inStock": null,
+      "price": 14,
+      "decimalPrice": "13.5",
+      "promoTypes": [],
+      "optionsGroups": [
+        {
+          "id": 2024091445,
+          "name": "Соус на выбор",
+          "options": [
+            {
+              "id": 30291236752,
+              "name": "Чили",
+              "price": 2,
+              "decimalPrice": "1.5",
+              "multiplier": 1
+            },
+            {
+              "id": 30291236755,
+              "name": "Сырный",
+              "price": 2,
+              "decimalPrice": "1.5",
+              "multiplier": 1
+            },
+            {
+              "id": 30291236756,
+              "name": "BBQ",
+              "price": 2,
+              "decimalPrice": "1.5",
+              "multiplier": 1
+            },
+            {
+              "id": 30291236757,
+              "name": "Горчичный",
+              "price": 2,
+              "decimalPrice": "1.5",
+              "multiplier": 1
+            },
+            {
+              "id": 30291236758,
+              "name": "Кавказский",
+              "price": 2,
+              "decimalPrice": "1.5",
+              "multiplier": 1
+            },
+            {
+              "id": 30291236759,
+              "name": "Кисло-сладкий",
+              "price": 2,
+              "decimalPrice": "1.5",
+              "multiplier": 1
+            }
+          ],
+          "required": false,
+          "minSelected": 0,
+          "maxSelected": 1
+        },
+        {
+          "id": 2024091446,
+          "name": "Дополнительно",
+          "options": [
+            {
+              "id": 30291236760,
+              "name": "Томат свежий",
+              "price": 2,
+              "decimalPrice": "1.5",
+              "multiplier": 1
+            },
+            {
+              "id": 30291236761,
+              "name": "Колбаска BBQ",
+              "price": 3,
+              "decimalPrice": "3",
+              "multiplier": 1
+            },
+            {
+              "id": 30291236762,
+              "name": "Огурец маринованный",
+              "price": 2,
+              "decimalPrice": "1.5",
+              "multiplier": 1
+            },
+            {
+              "id": 30291236763,
+              "name": "Лук маринованный",
+              "price": 1,
+              "decimalPrice": "0.75",
+              "multiplier": 1
+            },
+            {
+              "id": 30291236764,
+              "name": "Морковь по-корейски",
+              "price": 1,
+              "decimalPrice": "0.75",
+              "multiplier": 1
+            },
+            {
+              "id": 30291236765,
+              "name": "Оливки",
+              "price": 2,
+              "decimalPrice": "1.5",
+              "multiplier": 1
+            },
+            {
+              "id": 30291236766,
+              "name": "Сыр",
+              "price": 2,
+              "decimalPrice": "1.5",
+              "multiplier": 1
+            },
+            {
+              "id": 30291236767,
+              "name": "Халапеньо",
+              "price": 2,
+              "decimalPrice": "1.5",
+              "multiplier": 1
+            },
+            {
+              "id": 30291236768,
+              "name": "Курица-гриль",
+              "price": 3,
+              "decimalPrice": "3",
+              "multiplier": 1
+            },
+            {
+              "id": 30291236769,
+              "name": "Грибы",
+              "price": 2,
+              "decimalPrice": "1.5",
+              "multiplier": 1
+            },
+            {
+              "id": 30291236770,
+              "name": "Картофель фри",
+              "price": 2,
+              "decimalPrice": "1.5",
+              "multiplier": 1
+            }
+          ],
+          "required": false,
+          "minSelected": 0,
+          "maxSelected": 1
+        }
+      ],
+      "picture": {
+        "uri": "/images/3528285/15fc977b2217419f88cc8d80f36d19ed-{w}x{h}.jpeg",
+        "ratio": 1,
+        "scale": "aspect_fill"
+      },
+      "weight": "500 г",
+      "adult": false,
+      "shippingType": "all",
+      "measure": {
+        "value": "500",
+        "measure_unit": "g"
+      },
+      "nutrients_detailed": {
+        "calories": {
+          "name": "ккал",
+          "value": "212",
+          "unit": "ккал"
+        },
+        "proteins": {
+          "name": "белки",
+          "value": "8",
+          "unit": "г"
+        },
+        "fats": {
+          "name": "жиры",
+          "value": "6",
+          "unit": "г"
+        },
+        "carbohydrates": {
+          "name": "углеводы",
+          "value": "23",
+          "unit": "г"
+        },
+        "description": {
+          "value": "На 100 г по открытым данным для подобных блюд"
+        }
+      },
+      "publicId": "3e47a768-26f2-48ea-af78-702727284882",
+      "badges": [
+        {
+          "text": {
+            "value": "МЕГАПОРЦИЯ",
+            "color": {
+              "light": "#FFFFFF",
+              "dark": "#FFFFFF"
+            }
+          },
+          "background": {
+            "light": "#3C3B3A",
+            "dark": "#3C3B3A"
+          }
+        }
+      ],
+      "badges_preview": [
+        {
+          "text": {
+            "value": "МЕГАПОРЦИЯ",
+            "color": {
+              "light": "#FFFFFF",
+              "dark": "#FFFFFF"
+            }
+          },
+          "background": {
+            "light": "#3C3B3A",
+            "dark": "#3C3B3A"
+          }
+        }
+      ]
+    },
+    {
+      "id": 3008846112,
+      "name": "Барбекю L",
+      "description": "",
+      "descriptions": [
+        {
+          "title": "Состав",
+          "text": "Лаваш, курица гриль, капуста, огурец, соус барбекю, лук, томат, соус",
+          "expanded_text": "Весь состав",
+          "collapsed_text": "Свернуть",
+          "collapsed_text_lines_count": 3
+        }
+      ],
+      "available": true,
+      "inStock": null,
+      "price": 12,
+      "decimalPrice": "11.5",
+      "promoTypes": [],
+      "optionsGroups": [
+        {
+          "id": 2024091447,
+          "name": "Соусы",
+          "options": [
+            {
+              "id": 30291236771,
+              "name": "Чили",
+              "price": 2,
+              "decimalPrice": "1.5",
+              "multiplier": 1
+            },
+            {
+              "id": 30291236772,
+              "name": "Сырный",
+              "price": 2,
+              "decimalPrice": "1.5",
+              "multiplier": 1
+            },
+            {
+              "id": 30291236773,
+              "name": "BBQ",
+              "price": 2,
+              "decimalPrice": "1.5",
+              "multiplier": 1
+            },
+            {
+              "id": 30291236774,
+              "name": "Горчичный",
+              "price": 2,
+              "decimalPrice": "1.5",
+              "multiplier": 1
+            },
+            {
+              "id": 30291236775,
+              "name": "Кавказский",
+              "price": 2,
+              "decimalPrice": "1.5",
+              "multiplier": 1
+            },
+            {
+              "id": 30291236776,
+              "name": "Кисло-сладкий",
+              "price": 2,
+              "decimalPrice": "1.5",
+              "multiplier": 1
+            }
+          ],
+          "required": false,
+          "minSelected": 0,
+          "maxSelected": 1
+        },
+        {
+          "id": 2024091448,
+          "name": "Добавки",
+          "options": [
+            {
+              "id": 30291236777,
+              "name": "Томат свежий",
+              "price": 2,
+              "decimalPrice": "1.5",
+              "multiplier": 1
+            },
+            {
+              "id": 30291236778,
+              "name": "Курица гриль",
+              "price": 3,
+              "decimalPrice": "3",
+              "multiplier": 1
+            },
+            {
+              "id": 30291236779,
+              "name": "Колбаска BBQ",
+              "price": 3,
+              "decimalPrice": "3",
+              "multiplier": 1
+            },
+            {
+              "id": 30291236780,
+              "name": "Огурец маринованный",
+              "price": 2,
+              "decimalPrice": "1.5",
+              "multiplier": 1
+            },
+            {
+              "id": 30291236781,
+              "name": "Лук маринованный",
+              "price": 1,
+              "decimalPrice": "0.75",
+              "multiplier": 1
+            },
+            {
+              "id": 30291236782,
+              "name": "Морковь по-корейски",
+              "price": 1,
+              "decimalPrice": "0.75",
+              "multiplier": 1
+            },
+            {
+              "id": 30291236783,
+              "name": "Оливки",
+              "price": 2,
+              "decimalPrice": "1.5",
+              "multiplier": 1
+            },
+            {
+              "id": 30291236784,
+              "name": "Сыр",
+              "price": 2,
+              "decimalPrice": "1.5",
+              "multiplier": 1
+            },
+            {
+              "id": 30291236785,
+              "name": "Халапеньо",
+              "price": 2,
+              "decimalPrice": "1.5",
+              "multiplier": 1
+            },
+            {
+              "id": 30291236786,
+              "name": "Грибы",
+              "price": 2,
+              "decimalPrice": "1.5",
+              "multiplier": 1
+            },
+            {
+              "id": 30291236787,
+              "name": "Картофель фри",
+              "price": 2,
+              "decimalPrice": "1.5",
+              "multiplier": 1
+            }
+          ],
+          "required": false,
+          "minSelected": 0,
+          "maxSelected": 1
+        }
+      ],
+      "picture": {
+        "uri": "/images/3531870/5ad90e786dd74e8db9753de20b21bd2a-{w}x{h}.jpeg",
+        "ratio": 1,
+        "scale": "aspect_fill"
+      },
+      "weight": "350 г",
+      "adult": false,
+      "shippingType": "all",
+      "measure": {
+        "value": "350",
+        "measure_unit": "g"
+      },
+      "nutrients_detailed": {
+        "calories": {
+          "name": "ккал",
+          "value": "238",
+          "unit": "ккал"
+        },
+        "proteins": {
+          "name": "белки",
+          "value": "23",
+          "unit": "г"
+        },
+        "fats": {
+          "name": "жиры",
+          "value": "12",
+          "unit": "г"
+        },
+        "carbohydrates": {
+          "name": "углеводы",
+          "value": "8",
+          "unit": "г"
+        },
+        "description": {
+          "value": "На 100 г по открытым данным для подобных блюд"
+        }
+      },
+      "publicId": "8ab330f2-1b57-4402-b6ee-24a3e88fc09c"
+    },
+    {
+      "id": 3008846113,
+      "name": "Барбекю XL",
+      "description": "",
+      "descriptions": [
+        {
+          "title": "Состав",
+          "text": "Лаваш, курица гриль, капуста, огурец, соус барбекю, лук, томат, соус",
+          "expanded_text": "Весь состав",
+          "collapsed_text": "Свернуть",
+          "collapsed_text_lines_count": 3
+        }
+      ],
+      "available": true,
+      "inStock": null,
+      "price": 14,
+      "decimalPrice": "13.5",
+      "promoTypes": [],
+      "optionsGroups": [
+        {
+          "id": 2024091449,
+          "name": "Соусы",
+          "options": [
+            {
+              "id": 30291236788,
+              "name": "Чили",
+              "price": 2,
+              "decimalPrice": "1.5",
+              "multiplier": 1
+            },
+            {
+              "id": 30291236789,
+              "name": "Сырный",
+              "price": 2,
+              "decimalPrice": "1.5",
+              "multiplier": 1
+            },
+            {
+              "id": 30291236790,
+              "name": "BBQ",
+              "price": 2,
+              "decimalPrice": "1.5",
+              "multiplier": 1
+            },
+            {
+              "id": 30291236791,
+              "name": "Горчичный",
+              "price": 2,
+              "decimalPrice": "1.5",
+              "multiplier": 1
+            },
+            {
+              "id": 30291236792,
+              "name": "Кавказский",
+              "price": 2,
+              "decimalPrice": "1.5",
+              "multiplier": 1
+            },
+            {
+              "id": 30291236793,
+              "name": "Кисло-сладкий",
+              "price": 2,
+              "decimalPrice": "1.5",
+              "multiplier": 1
+            }
+          ],
+          "required": false,
+          "minSelected": 0,
+          "maxSelected": 1
+        },
+        {
+          "id": 2024091450,
+          "name": "Дополнительно",
+          "options": [
+            {
+              "id": 30291236794,
+              "name": "Томат свежий",
+              "price": 2,
+              "decimalPrice": "1.5",
+              "multiplier": 1
+            },
+            {
+              "id": 30291236795,
+              "name": "Курица гриль",
+              "price": 3,
+              "decimalPrice": "3",
+              "multiplier": 1
+            },
+            {
+              "id": 30291236796,
+              "name": "Колбаска BBQ",
+              "price": 3,
+              "decimalPrice": "3",
+              "multiplier": 1
+            },
+            {
+              "id": 30291236797,
+              "name": "Огурец маринованный",
+              "price": 2,
+              "decimalPrice": "1.5",
+              "multiplier": 1
+            },
+            {
+              "id": 30291236798,
+              "name": "Лук маринованный",
+              "price": 1,
+              "decimalPrice": "0.75",
+              "multiplier": 1
+            },
+            {
+              "id": 30291236799,
+              "name": "Морковь по-корейски",
+              "price": 1,
+              "decimalPrice": "0.75",
+              "multiplier": 1
+            },
+            {
+              "id": 30291236800,
+              "name": "Оливки",
+              "price": 2,
+              "decimalPrice": "1.5",
+              "multiplier": 1
+            },
+            {
+              "id": 30291236801,
+              "name": "Сыр",
+              "price": 2,
+              "decimalPrice": "1.5",
+              "multiplier": 1
+            },
+            {
+              "id": 30291236802,
+              "name": "Халапеньо",
+              "price": 2,
+              "decimalPrice": "1.5",
+              "multiplier": 1
+            },
+            {
+              "id": 30291236803,
+              "name": "Грибы",
+              "price": 2,
+              "decimalPrice": "1.5",
+              "multiplier": 1
+            },
+            {
+              "id": 30291236804,
+              "name": "Картофель фри",
+              "price": 2,
+              "decimalPrice": "1.5",
+              "multiplier": 1
+            }
+          ],
+          "required": false,
+          "minSelected": 0,
+          "maxSelected": 1
+        }
+      ],
+      "picture": {
+        "uri": "/images/3583740/5c2fcd334e6f443dbeac8adad0d222de-{w}x{h}.jpeg",
+        "ratio": 1,
+        "scale": "aspect_fill"
+      },
+      "weight": "500 г",
+      "adult": false,
+      "shippingType": "all",
+      "measure": {
+        "value": "500",
+        "measure_unit": "g"
+      },
+      "publicId": "7ecf0e2f-e7b3-439c-9ad4-5c10d9736035",
+      "badges": [
+        {
+          "text": {
+            "value": "МЕГАПОРЦИЯ",
+            "color": {
+              "light": "#FFFFFF",
+              "dark": "#FFFFFF"
+            }
+          },
+          "background": {
+            "light": "#3C3B3A",
+            "dark": "#3C3B3A"
+          }
+        }
+      ],
+      "badges_preview": [
+        {
+          "text": {
+            "value": "МЕГАПОРЦИЯ",
+            "color": {
+              "light": "#FFFFFF",
+              "dark": "#FFFFFF"
+            }
+          },
+          "background": {
+            "light": "#3C3B3A",
+            "dark": "#3C3B3A"
+          }
+        }
+      ]
+    },
+    {
+      "id": 3008846114,
+      "name": "Терияки L",
+      "description": "",
+      "descriptions": [
+        {
+          "title": "Состав",
+          "text": "Лаваш, курица гриль, капуста, огурец, соус терияки, томат, фирменный соус",
+          "expanded_text": "Весь состав",
+          "collapsed_text": "Свернуть",
+          "collapsed_text_lines_count": 3
+        }
+      ],
+      "available": true,
+      "inStock": null,
+      "price": 12,
+      "decimalPrice": "11.5",
+      "promoTypes": [],
+      "optionsGroups": [
+        {
+          "id": 2024091451,
+          "name": "Соус на выбор",
+          "options": [
+            {
+              "id": 30291236806,
+              "name": "Чили",
+              "price": 2,
+              "decimalPrice": "1.5",
+              "multiplier": 1
+            },
+            {
+              "id": 30291236809,
+              "name": "Сырный",
+              "price": 2,
+              "decimalPrice": "1.5",
+              "multiplier": 1
+            },
+            {
+              "id": 30291236810,
+              "name": "BBQ",
+              "price": 2,
+              "decimalPrice": "1.5",
+              "multiplier": 1
+            },
+            {
+              "id": 30291236811,
+              "name": "Горчичный",
+              "price": 2,
+              "decimalPrice": "1.5",
+              "multiplier": 1
+            },
+            {
+              "id": 30291236812,
+              "name": "Кавказский",
+              "price": 2,
+              "decimalPrice": "1.5",
+              "multiplier": 1
+            },
+            {
+              "id": 30291236813,
+              "name": "Кисло-сладкий",
+              "price": 2,
+              "decimalPrice": "1.5",
+              "multiplier": 1
+            }
+          ],
+          "required": false,
+          "minSelected": 0,
+          "maxSelected": 1
+        },
+        {
+          "id": 2024091452,
+          "name": "Дополнительно",
+          "options": [
+            {
+              "id": 30291236814,
+              "name": "Томат свежий",
+              "price": 2,
+              "decimalPrice": "1.5",
+              "multiplier": 1
+            },
+            {
+              "id": 30291236815,
+              "name": "Курица гриль",
+              "price": 3,
+              "decimalPrice": "3",
+              "multiplier": 1
+            },
+            {
+              "id": 30291236816,
+              "name": "Колбаска BBQ",
+              "price": 3,
+              "decimalPrice": "3",
+              "multiplier": 1
+            },
+            {
+              "id": 30291236817,
+              "name": "Огурец маринованный",
+              "price": 2,
+              "decimalPrice": "1.5",
+              "multiplier": 1
+            },
+            {
+              "id": 30291236818,
+              "name": "Лук маринованный",
+              "price": 1,
+              "decimalPrice": "0.75",
+              "multiplier": 1
+            },
+            {
+              "id": 30291236819,
+              "name": "Морковь по-корейски",
+              "price": 1,
+              "decimalPrice": "0.75",
+              "multiplier": 1
+            },
+            {
+              "id": 30291236820,
+              "name": "Оливки",
+              "price": 2,
+              "decimalPrice": "1.5",
+              "multiplier": 1
+            },
+            {
+              "id": 30291236821,
+              "name": "Сыр",
+              "price": 2,
+              "decimalPrice": "1.5",
+              "multiplier": 1
+            },
+            {
+              "id": 30291236822,
+              "name": "Халапеньо",
+              "price": 2,
+              "decimalPrice": "1.5",
+              "multiplier": 1
+            },
+            {
+              "id": 30291236823,
+              "name": "Грибы",
+              "price": 2,
+              "decimalPrice": "1.5",
+              "multiplier": 1
+            },
+            {
+              "id": 30291236824,
+              "name": "Картофель фри",
+              "price": 2,
+              "decimalPrice": "1.5",
+              "multiplier": 1
+            }
+          ],
+          "required": false,
+          "minSelected": 0,
+          "maxSelected": 1
+        }
+      ],
+      "picture": {
+        "uri": "/images/3506707/b76c5c5679c4481a961ca92efbccc8a6-{w}x{h}.jpeg",
+        "ratio": 1,
+        "scale": "aspect_fill"
+      },
+      "weight": "350 г",
+      "adult": false,
+      "shippingType": "all",
+      "measure": {
+        "value": "350",
+        "measure_unit": "g"
+      },
+      "nutrients_detailed": {
+        "calories": {
+          "name": "ккал",
+          "value": "176",
+          "unit": "ккал"
+        },
+        "proteins": {
+          "name": "белки",
+          "value": "25",
+          "unit": "г"
+        },
+        "fats": {
+          "name": "жиры",
+          "value": "6",
+          "unit": "г"
+        },
+        "carbohydrates": {
+          "name": "углеводы",
+          "value": "7",
+          "unit": "г"
+        },
+        "description": {
+          "value": "На 100 г по открытым данным для подобных блюд"
+        }
+      },
+      "publicId": "1aab558e-3d97-4b00-a28d-337b8f4e6395"
+    },
+    {
+      "id": 3008846115,
+      "name": "Терияки XL",
+      "description": "",
+      "descriptions": [
+        {
+          "title": "Состав",
+          "text": "Лаваш, курица гриль, капуста, огурец, соус терияки, томат, фирменный соус",
+          "expanded_text": "Весь состав",
+          "collapsed_text": "Свернуть",
+          "collapsed_text_lines_count": 3
+        }
+      ],
+      "available": true,
+      "inStock": null,
+      "price": 14,
+      "decimalPrice": "13.5",
+      "promoTypes": [],
+      "optionsGroups": [
+        {
+          "id": 2024091453,
+          "name": "Соус на выбор",
+          "options": [
+            {
+              "id": 30291236826,
+              "name": "Чили",
+              "price": 2,
+              "decimalPrice": "1.5",
+              "multiplier": 1
+            },
+            {
+              "id": 30291236829,
+              "name": "Сырный",
+              "price": 2,
+              "decimalPrice": "1.5",
+              "multiplier": 1
+            },
+            {
+              "id": 30291236830,
+              "name": "BBQ",
+              "price": 2,
+              "decimalPrice": "1.5",
+              "multiplier": 1
+            },
+            {
+              "id": 30291236831,
+              "name": "Горчичный",
+              "price": 2,
+              "decimalPrice": "1.5",
+              "multiplier": 1
+            },
+            {
+              "id": 30291236832,
+              "name": "Кавказский",
+              "price": 2,
+              "decimalPrice": "1.5",
+              "multiplier": 1
+            },
+            {
+              "id": 30291236833,
+              "name": "Кисло-сладкий",
+              "price": 2,
+              "decimalPrice": "1.5",
+              "multiplier": 1
+            }
+          ],
+          "required": false,
+          "minSelected": 0,
+          "maxSelected": 1
+        },
+        {
+          "id": 2024091454,
+          "name": "Дополнительно",
+          "options": [
+            {
+              "id": 30291236834,
+              "name": "Томат свежий",
+              "price": 2,
+              "decimalPrice": "1.5",
+              "multiplier": 1
+            },
+            {
+              "id": 30291236835,
+              "name": "Курица гриль",
+              "price": 3,
+              "decimalPrice": "3",
+              "multiplier": 1
+            },
+            {
+              "id": 30291236836,
+              "name": "Колбаска BBQ",
+              "price": 3,
+              "decimalPrice": "3",
+              "multiplier": 1
+            },
+            {
+              "id": 30291236837,
+              "name": "Огурец маринованный",
+              "price": 2,
+              "decimalPrice": "1.5",
+              "multiplier": 1
+            },
+            {
+              "id": 30291236838,
+              "name": "Лук маринованный",
+              "price": 1,
+              "decimalPrice": "0.75",
+              "multiplier": 1
+            },
+            {
+              "id": 30291236839,
+              "name": "Морковь по-корейски",
+              "price": 1,
+              "decimalPrice": "0.75",
+              "multiplier": 1
+            },
+            {
+              "id": 30291236840,
+              "name": "Оливки",
+              "price": 2,
+              "decimalPrice": "1.5",
+              "multiplier": 1
+            },
+            {
+              "id": 30291236841,
+              "name": "Сыр",
+              "price": 2,
+              "decimalPrice": "1.5",
+              "multiplier": 1
+            },
+            {
+              "id": 30291236842,
+              "name": "Халапеньо",
+              "price": 2,
+              "decimalPrice": "1.5",
+              "multiplier": 1
+            },
+            {
+              "id": 30291236843,
+              "name": "Грибы",
+              "price": 2,
+              "decimalPrice": "1.5",
+              "multiplier": 1
+            },
+            {
+              "id": 30291236844,
+              "name": "Картофель фри",
+              "price": 2,
+              "decimalPrice": "1.5",
+              "multiplier": 1
+            }
+          ],
+          "required": false,
+          "minSelected": 0,
+          "maxSelected": 1
+        }
+      ],
+      "picture": {
+        "uri": "/images/3569651/d843d0c4276b41f2bb904c57b9783cb5-{w}x{h}.jpeg",
+        "ratio": 1,
+        "scale": "aspect_fill"
+      },
+      "weight": "500 г",
+      "adult": false,
+      "shippingType": "all",
+      "measure": {
+        "value": "500",
+        "measure_unit": "g"
+      },
+      "publicId": "0344509c-4a29-420e-aeeb-4c4b4fd28f3d",
+      "badges": [
+        {
+          "text": {
+            "value": "МЕГАПОРЦИЯ",
+            "color": {
+              "light": "#FFFFFF",
+              "dark": "#FFFFFF"
+            }
+          },
+          "background": {
+            "light": "#3C3B3A",
+            "dark": "#3C3B3A"
+          }
+        }
+      ],
+      "badges_preview": [
+        {
+          "text": {
+            "value": "МЕГАПОРЦИЯ",
+            "color": {
+              "light": "#FFFFFF",
+              "dark": "#FFFFFF"
+            }
+          },
+          "background": {
+            "light": "#3C3B3A",
+            "dark": "#3C3B3A"
+          }
+        }
+      ]
+    },
+    {
+      "id": 3008846116,
+      "name": "Кавказская L",
+      "description": "",
+      "descriptions": [
+        {
+          "title": "Состав",
+          "text": "Лаваш, курица гриль, капуста, огурец, соус кавказский, томат, лук маринованный, соус фирменный",
+          "expanded_text": "Весь состав",
+          "collapsed_text": "Свернуть",
+          "collapsed_text_lines_count": 3
+        }
+      ],
+      "available": true,
+      "inStock": null,
+      "price": 12,
+      "decimalPrice": "11.5",
+      "promoTypes": [],
+      "optionsGroups": [
+        {
+          "id": 2024091455,
+          "name": "Добавки",
+          "options": [
+            {
+              "id": 30291236845,
+              "name": "Томат свежий",
+              "price": 2,
+              "decimalPrice": "1.5",
+              "multiplier": 1
+            },
+            {
+              "id": 30291236846,
+              "name": "Колбаска BBQ",
+              "price": 3,
+              "decimalPrice": "3",
+              "multiplier": 1
+            },
+            {
+              "id": 30291236847,
+              "name": "Огурец маринованный",
+              "price": 2,
+              "decimalPrice": "1.5",
+              "multiplier": 1
+            },
+            {
+              "id": 30291236848,
+              "name": "Лук маринованный",
+              "price": 1,
+              "decimalPrice": "0.75",
+              "multiplier": 1
+            },
+            {
+              "id": 30291236849,
+              "name": "Морковь по-корейски",
+              "price": 1,
+              "decimalPrice": "0.75",
+              "multiplier": 1
+            },
+            {
+              "id": 30291236850,
+              "name": "Оливки",
+              "price": 2,
+              "decimalPrice": "1.5",
+              "multiplier": 1
+            },
+            {
+              "id": 30291236851,
+              "name": "Сыр",
+              "price": 2,
+              "decimalPrice": "1.5",
+              "multiplier": 1
+            },
+            {
+              "id": 30291236852,
+              "name": "Халапеньо",
+              "price": 2,
+              "decimalPrice": "1.5",
+              "multiplier": 1
+            },
+            {
+              "id": 30291236853,
+              "name": "Курица-гриль",
+              "price": 3,
+              "decimalPrice": "3",
+              "multiplier": 1
+            },
+            {
+              "id": 30291236854,
+              "name": "Грибы",
+              "price": 2,
+              "decimalPrice": "1.5",
+              "multiplier": 1
+            },
+            {
+              "id": 30291236855,
+              "name": "Картофель фри",
+              "price": 2,
+              "decimalPrice": "1.5",
+              "multiplier": 1
+            }
+          ],
+          "required": false,
+          "minSelected": 0,
+          "maxSelected": 1
+        },
+        {
+          "id": 2024091456,
+          "name": "Соусы",
+          "options": [
+            {
+              "id": 30291236856,
+              "name": "Чили",
+              "price": 2,
+              "decimalPrice": "1.5",
+              "multiplier": 1
+            },
+            {
+              "id": 30291236858,
+              "name": "Сырный",
+              "price": 2,
+              "decimalPrice": "1.5",
+              "multiplier": 1
+            },
+            {
+              "id": 30291236859,
+              "name": "BBQ",
+              "price": 2,
+              "decimalPrice": "1.5",
+              "multiplier": 1
+            },
+            {
+              "id": 30291236860,
+              "name": "Горчичный",
+              "price": 2,
+              "decimalPrice": "1.5",
+              "multiplier": 1
+            },
+            {
+              "id": 30291236861,
+              "name": "Кавказский",
+              "price": 2,
+              "decimalPrice": "1.5",
+              "multiplier": 1
+            },
+            {
+              "id": 30291236862,
+              "name": "Кисло-сладкий",
+              "price": 2,
+              "decimalPrice": "1.5",
+              "multiplier": 1
+            }
+          ],
+          "required": false,
+          "minSelected": 0,
+          "maxSelected": 1
+        }
+      ],
+      "picture": {
+        "uri": "/images/3569651/3a6ea9e899f742c5901c63c8f0b559be-{w}x{h}.jpeg",
+        "ratio": 1,
+        "scale": "aspect_fill"
+      },
+      "weight": "350 г",
+      "adult": false,
+      "shippingType": "all",
+      "measure": {
+        "value": "350",
+        "measure_unit": "g"
+      },
+      "nutrients_detailed": {
+        "calories": {
+          "name": "ккал",
+          "value": "166",
+          "unit": "ккал"
+        },
+        "proteins": {
+          "name": "белки",
+          "value": "8",
+          "unit": "г"
+        },
+        "fats": {
+          "name": "жиры",
+          "value": "4",
+          "unit": "г"
+        },
+        "carbohydrates": {
+          "name": "углеводы",
+          "value": "27",
+          "unit": "г"
+        },
+        "description": {
+          "value": "На 100 г по открытым данным для подобных блюд"
+        }
+      },
+      "publicId": "f59124a5-03f6-49bc-b17d-1896e79a9829"
+    },
+    {
+      "id": 3008846117,
+      "name": "Кавказская XL",
+      "description": "",
+      "descriptions": [
+        {
+          "title": "Состав",
+          "text": "Лаваш, курица гриль, капуста, огурец, соус кавказский, томат, лук маринованный, соус фирменный",
+          "expanded_text": "Весь состав",
+          "collapsed_text": "Свернуть",
+          "collapsed_text_lines_count": 3
+        }
+      ],
+      "available": true,
+      "inStock": null,
+      "price": 14,
+      "decimalPrice": "13.5",
+      "promoTypes": [],
+      "optionsGroups": [
+        {
+          "id": 2024091457,
+          "name": "Соусы",
+          "options": [
+            {
+              "id": 30291236863,
+              "name": "Чили",
+              "price": 2,
+              "decimalPrice": "1.5",
+              "multiplier": 1
+            },
+            {
+              "id": 30291236864,
+              "name": "Сырный",
+              "price": 2,
+              "decimalPrice": "1.5",
+              "multiplier": 1
+            },
+            {
+              "id": 30291236865,
+              "name": "BBQ",
+              "price": 2,
+              "decimalPrice": "1.5",
+              "multiplier": 1
+            },
+            {
+              "id": 30291236866,
+              "name": "Горчичный",
+              "price": 2,
+              "decimalPrice": "1.5",
+              "multiplier": 1
+            },
+            {
+              "id": 30291236867,
+              "name": "Кавказский",
+              "price": 2,
+              "decimalPrice": "1.5",
+              "multiplier": 1
+            },
+            {
+              "id": 30291236868,
+              "name": "Кисло-сладкий",
+              "price": 2,
+              "decimalPrice": "1.5",
+              "multiplier": 1
+            }
+          ],
+          "required": false,
+          "minSelected": 0,
+          "maxSelected": 1
+        },
+        {
+          "id": 2024091458,
+          "name": "Добавки",
+          "options": [
+            {
+              "id": 30291236869,
+              "name": "Томат свежий",
+              "price": 2,
+              "decimalPrice": "1.5",
+              "multiplier": 1
+            },
+            {
+              "id": 30291236870,
+              "name": "Колбаска BBQ",
+              "price": 3,
+              "decimalPrice": "3",
+              "multiplier": 1
+            },
+            {
+              "id": 30291236871,
+              "name": "Огурец маринованный",
+              "price": 2,
+              "decimalPrice": "1.5",
+              "multiplier": 1
+            },
+            {
+              "id": 30291236872,
+              "name": "Лук маринованный",
+              "price": 1,
+              "decimalPrice": "0.75",
+              "multiplier": 1
+            },
+            {
+              "id": 30291236873,
+              "name": "Морковь по-корейски",
+              "price": 1,
+              "decimalPrice": "0.75",
+              "multiplier": 1
+            },
+            {
+              "id": 30291236874,
+              "name": "Оливки",
+              "price": 2,
+              "decimalPrice": "1.5",
+              "multiplier": 1
+            },
+            {
+              "id": 30291236875,
+              "name": "Сыр",
+              "price": 2,
+              "decimalPrice": "1.5",
+              "multiplier": 1
+            },
+            {
+              "id": 30291236876,
+              "name": "Халапеньо",
+              "price": 2,
+              "decimalPrice": "1.5",
+              "multiplier": 1
+            },
+            {
+              "id": 30291236877,
+              "name": "Курица-гриль",
+              "price": 3,
+              "decimalPrice": "3",
+              "multiplier": 1
+            },
+            {
+              "id": 30291236878,
+              "name": "Грибы",
+              "price": 2,
+              "decimalPrice": "1.5",
+              "multiplier": 1
+            },
+            {
+              "id": 30291236879,
+              "name": "Картофель фри",
+              "price": 2,
+              "decimalPrice": "1.5",
+              "multiplier": 1
+            }
+          ],
+          "required": false,
+          "minSelected": 0,
+          "maxSelected": 1
+        }
+      ],
+      "picture": {
+        "uri": "/images/3709189/3ae747943b1041758591942973ec5adb-{w}x{h}.jpeg",
+        "ratio": 1,
+        "scale": "aspect_fill"
+      },
+      "weight": "500 г",
+      "adult": false,
+      "shippingType": "all",
+      "measure": {
+        "value": "500",
+        "measure_unit": "g"
+      },
+      "publicId": "9612086d-1418-4f00-ba20-8b7298a5cef3",
+      "badges": [
+        {
+          "text": {
+            "value": "МЕГАПОРЦИЯ",
+            "color": {
+              "light": "#FFFFFF",
+              "dark": "#FFFFFF"
+            }
+          },
+          "background": {
+            "light": "#3C3B3A",
+            "dark": "#3C3B3A"
+          }
+        }
+      ],
+      "badges_preview": [
+        {
+          "text": {
+            "value": "МЕГАПОРЦИЯ",
+            "color": {
+              "light": "#FFFFFF",
+              "dark": "#FFFFFF"
+            }
+          },
+          "background": {
+            "light": "#3C3B3A",
+            "dark": "#3C3B3A"
+          }
+        }
+      ]
+    },
+    {
+      "id": 3008846118,
+      "name": "Сырная L",
+      "description": "",
+      "descriptions": [
+        {
+          "title": "Состав",
+          "text": "Лаваш, курица гриль, капуста, сыр, свежий огурец, соус горчичный, спелый томат, фирменный соус",
+          "expanded_text": "Весь состав",
+          "collapsed_text": "Свернуть",
+          "collapsed_text_lines_count": 3
+        }
+      ],
+      "available": true,
+      "inStock": null,
+      "price": 12,
+      "decimalPrice": "11.5",
+      "promoTypes": [],
+      "optionsGroups": [
+        {
+          "id": 2024091459,
+          "name": "Соус на выбор",
+          "options": [
+            {
+              "id": 30291236881,
+              "name": "Чили",
+              "price": 2,
+              "decimalPrice": "1.5",
+              "multiplier": 1
+            },
+            {
+              "id": 30291236884,
+              "name": "Сырный",
+              "price": 2,
+              "decimalPrice": "1.5",
+              "multiplier": 1
+            },
+            {
+              "id": 30291236885,
+              "name": "BBQ",
+              "price": 2,
+              "decimalPrice": "1.5",
+              "multiplier": 1
+            },
+            {
+              "id": 30291236886,
+              "name": "Горчичный",
+              "price": 2,
+              "decimalPrice": "1.5",
+              "multiplier": 1
+            },
+            {
+              "id": 30291236887,
+              "name": "Кавказский",
+              "price": 2,
+              "decimalPrice": "1.5",
+              "multiplier": 1
+            },
+            {
+              "id": 30291236888,
+              "name": "Кисло-сладкий",
+              "price": 2,
+              "decimalPrice": "1.5",
+              "multiplier": 1
+            }
+          ],
+          "required": false,
+          "minSelected": 0,
+          "maxSelected": 1
+        },
+        {
+          "id": 2024091460,
+          "name": "Дополнительно",
+          "options": [
+            {
+              "id": 30291236889,
+              "name": "Томат свежий",
+              "price": 2,
+              "decimalPrice": "1.5",
+              "multiplier": 1
+            },
+            {
+              "id": 30291236890,
+              "name": "Курица гриль",
+              "price": 3,
+              "decimalPrice": "3",
+              "multiplier": 1
+            },
+            {
+              "id": 30291236891,
+              "name": "Колбаска BBQ",
+              "price": 3,
+              "decimalPrice": "3",
+              "multiplier": 1
+            },
+            {
+              "id": 30291236892,
+              "name": "Огурец маринованный",
+              "price": 2,
+              "decimalPrice": "1.5",
+              "multiplier": 1
+            },
+            {
+              "id": 30291236893,
+              "name": "Лук маринованный",
+              "price": 1,
+              "decimalPrice": "0.75",
+              "multiplier": 1
+            },
+            {
+              "id": 30291236894,
+              "name": "Морковь по-корейски",
+              "price": 1,
+              "decimalPrice": "0.75",
+              "multiplier": 1
+            },
+            {
+              "id": 30291236895,
+              "name": "Оливки",
+              "price": 2,
+              "decimalPrice": "1.5",
+              "multiplier": 1
+            },
+            {
+              "id": 30291236896,
+              "name": "Сыр",
+              "price": 2,
+              "decimalPrice": "1.5",
+              "multiplier": 1
+            },
+            {
+              "id": 30291236897,
+              "name": "Халапеньо",
+              "price": 2,
+              "decimalPrice": "1.5",
+              "multiplier": 1
+            },
+            {
+              "id": 30291236898,
+              "name": "Грибы",
+              "price": 2,
+              "decimalPrice": "1.5",
+              "multiplier": 1
+            },
+            {
+              "id": 30291236899,
+              "name": "Картофель фри",
+              "price": 2,
+              "decimalPrice": "1.5",
+              "multiplier": 1
+            }
+          ],
+          "required": false,
+          "minSelected": 0,
+          "maxSelected": 1
+        }
+      ],
+      "picture": {
+        "uri": "/images/3593277/0d3e5bd29a53420b943f099e0fe73c3b-{w}x{h}.jpeg",
+        "ratio": 1,
+        "scale": "aspect_fill"
+      },
+      "weight": "350 г",
+      "adult": false,
+      "shippingType": "all",
+      "measure": {
+        "value": "350",
+        "measure_unit": "g"
+      },
+      "nutrients_detailed": {
+        "calories": {
+          "name": "ккал",
+          "value": "198",
+          "unit": "ккал"
+        },
+        "proteins": {
+          "name": "белки",
+          "value": "15",
+          "unit": "г"
+        },
+        "fats": {
+          "name": "жиры",
+          "value": "8",
+          "unit": "г"
+        },
+        "carbohydrates": {
+          "name": "углеводы",
+          "value": "11",
+          "unit": "г"
+        },
+        "description": {
+          "value": "На 100 г по открытым данным для подобных блюд"
+        }
+      },
+      "publicId": "15806efe-9a44-4483-8f2b-338831767ba6"
+    },
+    {
+      "id": 3008846119,
+      "name": "Сырная XL",
+      "description": "",
+      "descriptions": [
+        {
+          "title": "Состав",
+          "text": "Лаваш, курица гриль, капуста, сыр, свежий огурец, соус горчичный, спелый томат, фирменный соус",
+          "expanded_text": "Весь состав",
+          "collapsed_text": "Свернуть",
+          "collapsed_text_lines_count": 3
+        }
+      ],
+      "available": true,
+      "inStock": null,
+      "price": 14,
+      "decimalPrice": "13.5",
+      "promoTypes": [],
+      "optionsGroups": [
+        {
+          "id": 2024091461,
+          "name": "Дополнительно",
+          "options": [
+            {
+              "id": 30291236900,
+              "name": "Томат свежий",
+              "price": 2,
+              "decimalPrice": "1.5",
+              "multiplier": 1
+            },
+            {
+              "id": 30291236901,
+              "name": "Курица гриль",
+              "price": 3,
+              "decimalPrice": "3",
+              "multiplier": 1
+            },
+            {
+              "id": 30291236902,
+              "name": "Колбаска BBQ",
+              "price": 3,
+              "decimalPrice": "3",
+              "multiplier": 1
+            },
+            {
+              "id": 30291236903,
+              "name": "Огурец маринованный",
+              "price": 2,
+              "decimalPrice": "1.5",
+              "multiplier": 1
+            },
+            {
+              "id": 30291236904,
+              "name": "Лук маринованный",
+              "price": 1,
+              "decimalPrice": "0.75",
+              "multiplier": 1
+            },
+            {
+              "id": 30291236905,
+              "name": "Морковь по-корейски",
+              "price": 1,
+              "decimalPrice": "0.75",
+              "multiplier": 1
+            },
+            {
+              "id": 30291236906,
+              "name": "Оливки",
+              "price": 2,
+              "decimalPrice": "1.5",
+              "multiplier": 1
+            },
+            {
+              "id": 30291236907,
+              "name": "Сыр",
+              "price": 2,
+              "decimalPrice": "1.5",
+              "multiplier": 1
+            },
+            {
+              "id": 30291236908,
+              "name": "Халапеньо",
+              "price": 2,
+              "decimalPrice": "1.5",
+              "multiplier": 1
+            },
+            {
+              "id": 30291236909,
+              "name": "Грибы",
+              "price": 2,
+              "decimalPrice": "1.5",
+              "multiplier": 1
+            },
+            {
+              "id": 30291236910,
+              "name": "Картофель фри",
+              "price": 2,
+              "decimalPrice": "1.5",
+              "multiplier": 1
+            }
+          ],
+          "required": false,
+          "minSelected": 0,
+          "maxSelected": 1
+        },
+        {
+          "id": 2024091462,
+          "name": "Соус на выбор",
+          "options": [
+            {
+              "id": 30291236911,
+              "name": "Чили",
+              "price": 2,
+              "decimalPrice": "1.5",
+              "multiplier": 1
+            },
+            {
+              "id": 30291236913,
+              "name": "Сырный",
+              "price": 2,
+              "decimalPrice": "1.5",
+              "multiplier": 1
+            },
+            {
+              "id": 30291236914,
+              "name": "BBQ",
+              "price": 2,
+              "decimalPrice": "1.5",
+              "multiplier": 1
+            },
+            {
+              "id": 30291236915,
+              "name": "Горчичный",
+              "price": 2,
+              "decimalPrice": "1.5",
+              "multiplier": 1
+            },
+            {
+              "id": 30291236916,
+              "name": "Кавказский",
+              "price": 2,
+              "decimalPrice": "1.5",
+              "multiplier": 1
+            },
+            {
+              "id": 30291236917,
+              "name": "Кисло-сладкий",
+              "price": 2,
+              "decimalPrice": "1.5",
+              "multiplier": 1
+            }
+          ],
+          "required": false,
+          "minSelected": 0,
+          "maxSelected": 1
+        }
+      ],
+      "picture": {
+        "uri": "/images/3472725/ca4f95dd7ddf4bed831ba1cd79c2601e-{w}x{h}.jpeg",
+        "ratio": 1,
+        "scale": "aspect_fill"
+      },
+      "weight": "500 г",
+      "adult": false,
+      "shippingType": "all",
+      "measure": {
+        "value": "500",
+        "measure_unit": "g"
+      },
+      "nutrients_detailed": {
+        "calories": {
+          "name": "ккал",
+          "value": "284",
+          "unit": "ккал"
+        },
+        "proteins": {
+          "name": "белки",
+          "value": "11",
+          "unit": "г"
+        },
+        "fats": {
+          "name": "жиры",
+          "value": "10",
+          "unit": "г"
+        },
+        "carbohydrates": {
+          "name": "углеводы",
+          "value": "36",
+          "unit": "г"
+        },
+        "description": {
+          "value": "На 100 г по открытым данным для подобных блюд"
+        }
+      },
+      "publicId": "9df38ab4-030b-4a58-8571-cc6d8e13df1e",
+      "badges": [
+        {
+          "text": {
+            "value": "МЕГАПОРЦИЯ",
+            "color": {
+              "light": "#FFFFFF",
+              "dark": "#FFFFFF"
+            }
+          },
+          "background": {
+            "light": "#3C3B3A",
+            "dark": "#3C3B3A"
+          }
+        }
+      ],
+      "badges_preview": [
+        {
+          "text": {
+            "value": "МЕГАПОРЦИЯ",
+            "color": {
+              "light": "#FFFFFF",
+              "dark": "#FFFFFF"
+            }
+          },
+          "background": {
+            "light": "#3C3B3A",
+            "dark": "#3C3B3A"
+          }
+        }
+      ]
+    },
+    {
+      "id": 3008846120,
+      "name": "По-питерски L",
+      "description": "",
+      "descriptions": [
+        {
+          "title": "Состав",
+          "text": "Лаваш, курица, свежий огурец, спелый томат, лук салатный, фирменный соус",
+          "expanded_text": "Весь состав",
+          "collapsed_text": "Свернуть",
+          "collapsed_text_lines_count": 3
+        }
+      ],
+      "available": true,
+      "inStock": null,
+      "price": 12,
+      "decimalPrice": "11.5",
+      "promoTypes": [],
+      "optionsGroups": [
+        {
+          "id": 2024091463,
+          "name": "Соус на выбор",
+          "options": [
+            {
+              "id": 30291236919,
+              "name": "Чили",
+              "price": 2,
+              "decimalPrice": "1.5",
+              "multiplier": 1
+            },
+            {
+              "id": 30291236922,
+              "name": "Сырный",
+              "price": 2,
+              "decimalPrice": "1.5",
+              "multiplier": 1
+            },
+            {
+              "id": 30291236923,
+              "name": "BBQ",
+              "price": 2,
+              "decimalPrice": "1.5",
+              "multiplier": 1
+            },
+            {
+              "id": 30291236924,
+              "name": "Горчичный",
+              "price": 2,
+              "decimalPrice": "1.5",
+              "multiplier": 1
+            },
+            {
+              "id": 30291236925,
+              "name": "Кавказский",
+              "price": 2,
+              "decimalPrice": "1.5",
+              "multiplier": 1
+            },
+            {
+              "id": 30291236926,
+              "name": "Кисло-сладкий",
+              "price": 2,
+              "decimalPrice": "1.5",
+              "multiplier": 1
+            }
+          ],
+          "required": false,
+          "minSelected": 0,
+          "maxSelected": 1
+        },
+        {
+          "id": 2024091464,
+          "name": "Дополнительно",
+          "options": [
+            {
+              "id": 30291236927,
+              "name": "Томат свежий",
+              "price": 2,
+              "decimalPrice": "1.5",
+              "multiplier": 1
+            },
+            {
+              "id": 30291236928,
+              "name": "Колбаска BBQ",
+              "price": 3,
+              "decimalPrice": "3",
+              "multiplier": 1
+            },
+            {
+              "id": 30291236929,
+              "name": "Огурец маринованный",
+              "price": 2,
+              "decimalPrice": "1.5",
+              "multiplier": 1
+            },
+            {
+              "id": 30291236930,
+              "name": "Лук маринованный",
+              "price": 1,
+              "decimalPrice": "0.75",
+              "multiplier": 1
+            },
+            {
+              "id": 30291236931,
+              "name": "Морковь по-корейски",
+              "price": 1,
+              "decimalPrice": "0.75",
+              "multiplier": 1
+            },
+            {
+              "id": 30291236932,
+              "name": "Оливки",
+              "price": 2,
+              "decimalPrice": "1.5",
+              "multiplier": 1
+            },
+            {
+              "id": 30291236933,
+              "name": "Сыр",
+              "price": 2,
+              "decimalPrice": "1.5",
+              "multiplier": 1
+            },
+            {
+              "id": 30291236934,
+              "name": "Халапеньо",
+              "price": 2,
+              "decimalPrice": "1.5",
+              "multiplier": 1
+            },
+            {
+              "id": 30291236935,
+              "name": "Курица-гриль",
+              "price": 3,
+              "decimalPrice": "3",
+              "multiplier": 1
+            },
+            {
+              "id": 30291236936,
+              "name": "Грибы",
+              "price": 2,
+              "decimalPrice": "1.5",
+              "multiplier": 1
+            },
+            {
+              "id": 30291236937,
+              "name": "Картофель фри",
+              "price": 2,
+              "decimalPrice": "1.5",
+              "multiplier": 1
+            }
+          ],
+          "required": false,
+          "minSelected": 0,
+          "maxSelected": 1
+        }
+      ],
+      "picture": {
+        "uri": "/images/3512826/556b532eaa4e4e7c85058a3aad2eee70-{w}x{h}.jpeg",
+        "ratio": 1,
+        "scale": "aspect_fill"
+      },
+      "weight": "350 г",
+      "adult": false,
+      "shippingType": "all",
+      "measure": {
+        "value": "350",
+        "measure_unit": "g"
+      },
+      "publicId": "bb607b40-5d81-45ec-9b2b-56fdeaf52f18"
+    },
+    {
+      "id": 3008846121,
+      "name": "По-питерски XL",
+      "description": "",
+      "descriptions": [
+        {
+          "title": "Состав",
+          "text": "Лаваш, курица, свежий огурец, спелый томат, салатный лук, фирменный соус",
+          "expanded_text": "Весь состав",
+          "collapsed_text": "Свернуть",
+          "collapsed_text_lines_count": 3
+        }
+      ],
+      "available": true,
+      "inStock": null,
+      "price": 14,
+      "decimalPrice": "13.5",
+      "promoTypes": [],
+      "optionsGroups": [
+        {
+          "id": 2024091465,
+          "name": "Соус на выбор",
+          "options": [
+            {
+              "id": 30291236939,
+              "name": "Чили",
+              "price": 2,
+              "decimalPrice": "1.5",
+              "multiplier": 1
+            },
+            {
+              "id": 30291236942,
+              "name": "Сырный",
+              "price": 2,
+              "decimalPrice": "1.5",
+              "multiplier": 1
+            },
+            {
+              "id": 30291236943,
+              "name": "BBQ",
+              "price": 2,
+              "decimalPrice": "1.5",
+              "multiplier": 1
+            },
+            {
+              "id": 30291236944,
+              "name": "Горчичный",
+              "price": 2,
+              "decimalPrice": "1.5",
+              "multiplier": 1
+            },
+            {
+              "id": 30291236945,
+              "name": "Кавказский",
+              "price": 2,
+              "decimalPrice": "1.5",
+              "multiplier": 1
+            },
+            {
+              "id": 30291236946,
+              "name": "Кисло-сладкий",
+              "price": 2,
+              "decimalPrice": "1.5",
+              "multiplier": 1
+            }
+          ],
+          "required": false,
+          "minSelected": 0,
+          "maxSelected": 1
+        },
+        {
+          "id": 2024091466,
+          "name": "Дополнительно",
+          "options": [
+            {
+              "id": 30291236947,
+              "name": "Томат свежий",
+              "price": 2,
+              "decimalPrice": "1.5",
+              "multiplier": 1
+            },
+            {
+              "id": 30291236948,
+              "name": "Курица гриль",
+              "price": 3,
+              "decimalPrice": "3",
+              "multiplier": 1
+            },
+            {
+              "id": 30291236949,
+              "name": "Колбаска BBQ",
+              "price": 3,
+              "decimalPrice": "3",
+              "multiplier": 1
+            },
+            {
+              "id": 30291236950,
+              "name": "Огурец маринованный",
+              "price": 2,
+              "decimalPrice": "1.5",
+              "multiplier": 1
+            },
+            {
+              "id": 30291236951,
+              "name": "Лук маринованный",
+              "price": 1,
+              "decimalPrice": "0.75",
+              "multiplier": 1
+            },
+            {
+              "id": 30291236952,
+              "name": "Морковь по-корейски",
+              "price": 1,
+              "decimalPrice": "0.75",
+              "multiplier": 1
+            },
+            {
+              "id": 30291236953,
+              "name": "Оливки",
+              "price": 2,
+              "decimalPrice": "1.5",
+              "multiplier": 1
+            },
+            {
+              "id": 30291236954,
+              "name": "Сыр",
+              "price": 2,
+              "decimalPrice": "1.5",
+              "multiplier": 1
+            },
+            {
+              "id": 30291236955,
+              "name": "Халапеньо",
+              "price": 2,
+              "decimalPrice": "1.5",
+              "multiplier": 1
+            },
+            {
+              "id": 30291236956,
+              "name": "Грибы",
+              "price": 2,
+              "decimalPrice": "1.5",
+              "multiplier": 1
+            },
+            {
+              "id": 30291236957,
+              "name": "Картофель фри",
+              "price": 2,
+              "decimalPrice": "1.5",
+              "multiplier": 1
+            }
+          ],
+          "required": false,
+          "minSelected": 0,
+          "maxSelected": 1
+        }
+      ],
+      "picture": {
+        "uri": "/images/3521394/072c1a87f0894895b65aad05b5d35f26-{w}x{h}.jpeg",
+        "ratio": 1,
+        "scale": "aspect_fill"
+      },
+      "weight": "500 г",
+      "adult": false,
+      "shippingType": "all",
+      "measure": {
+        "value": "500",
+        "measure_unit": "g"
+      },
+      "publicId": "75c69ada-6395-47a0-a887-e5aae3894734",
+      "badges": [
+        {
+          "text": {
+            "value": "МЕГАПОРЦИЯ",
+            "color": {
+              "light": "#FFFFFF",
+              "dark": "#FFFFFF"
+            }
+          },
+          "background": {
+            "light": "#3C3B3A",
+            "dark": "#3C3B3A"
+          }
+        }
+      ],
+      "badges_preview": [
+        {
+          "text": {
+            "value": "МЕГАПОРЦИЯ",
+            "color": {
+              "light": "#FFFFFF",
+              "dark": "#FFFFFF"
+            }
+          },
+          "background": {
+            "light": "#3C3B3A",
+            "dark": "#3C3B3A"
+          }
+        }
+      ]
+    },
+    {
+      "id": 3008846122,
+      "name": "Вегетарианская с фалафелем L",
+      "description": "",
+      "descriptions": [
+        {
+          "title": "Состав",
+          "text": "Лаваш, фалафель, капуста, огурец, соус терияки, томат, оливки, фирменный соус",
+          "expanded_text": "Весь состав",
+          "collapsed_text": "Свернуть",
+          "collapsed_text_lines_count": 3
+        }
+      ],
+      "available": true,
+      "inStock": null,
+      "price": 11,
+      "decimalPrice": "10.5",
+      "promoTypes": [],
+      "optionsGroups": [
+        {
+          "id": 2024091467,
+          "name": "Соусы",
+          "options": [
+            {
+              "id": 30291236958,
+              "name": "Чили",
+              "price": 2,
+              "decimalPrice": "1.5",
+              "multiplier": 1
+            },
+            {
+              "id": 30291236959,
+              "name": "Сырный",
+              "price": 2,
+              "decimalPrice": "1.5",
+              "multiplier": 1
+            },
+            {
+              "id": 30291236960,
+              "name": "BBQ",
+              "price": 2,
+              "decimalPrice": "1.5",
+              "multiplier": 1
+            },
+            {
+              "id": 30291236961,
+              "name": "Горчичный",
+              "price": 2,
+              "decimalPrice": "1.5",
+              "multiplier": 1
+            },
+            {
+              "id": 30291236962,
+              "name": "Кавказский",
+              "price": 2,
+              "decimalPrice": "1.5",
+              "multiplier": 1
+            },
+            {
+              "id": 30291236963,
+              "name": "Кисло-сладкий",
+              "price": 2,
+              "decimalPrice": "1.5",
+              "multiplier": 1
+            }
+          ],
+          "required": false,
+          "minSelected": 0,
+          "maxSelected": 1
+        },
+        {
+          "id": 2024091468,
+          "name": "Добавки",
+          "options": [
+            {
+              "id": 30291236964,
+              "name": "Томат свежий",
+              "price": 2,
+              "decimalPrice": "1.5",
+              "multiplier": 1
+            },
+            {
+              "id": 30291236965,
+              "name": "Курица гриль",
+              "price": 3,
+              "decimalPrice": "3",
+              "multiplier": 1
+            },
+            {
+              "id": 30291236966,
+              "name": "Колбаска BBQ",
+              "price": 3,
+              "decimalPrice": "3",
+              "multiplier": 1
+            },
+            {
+              "id": 30291236967,
+              "name": "Огурец маринованный",
+              "price": 2,
+              "decimalPrice": "1.5",
+              "multiplier": 1
+            },
+            {
+              "id": 30291236968,
+              "name": "Лук маринованный",
+              "price": 1,
+              "decimalPrice": "0.75",
+              "multiplier": 1
+            },
+            {
+              "id": 30291236969,
+              "name": "Морковь по-корейски",
+              "price": 1,
+              "decimalPrice": "0.75",
+              "multiplier": 1
+            },
+            {
+              "id": 30291236970,
+              "name": "Оливки",
+              "price": 2,
+              "decimalPrice": "1.5",
+              "multiplier": 1
+            },
+            {
+              "id": 30291236971,
+              "name": "Сыр",
+              "price": 2,
+              "decimalPrice": "1.5",
+              "multiplier": 1
+            },
+            {
+              "id": 30291236972,
+              "name": "Халапеньо",
+              "price": 2,
+              "decimalPrice": "1.5",
+              "multiplier": 1
+            },
+            {
+              "id": 30291236973,
+              "name": "Грибы",
+              "price": 2,
+              "decimalPrice": "1.5",
+              "multiplier": 1
+            },
+            {
+              "id": 30291236974,
+              "name": "Картофель фри",
+              "price": 2,
+              "decimalPrice": "1.5",
+              "multiplier": 1
+            }
+          ],
+          "required": false,
+          "minSelected": 0,
+          "maxSelected": 1
+        }
+      ],
+      "picture": {
+        "uri": "/images/3772784/2a72205058ea4e218519671892ab87cb-{w}x{h}.jpeg",
+        "ratio": 1,
+        "scale": "aspect_fill"
+      },
+      "weight": "350 г",
+      "adult": false,
+      "shippingType": "all",
+      "measure": {
+        "value": "350",
+        "measure_unit": "g"
+      },
+      "nutrients_detailed": {
+        "calories": {
+          "name": "ккал",
+          "value": "161",
+          "unit": "ккал"
+        },
+        "proteins": {
+          "name": "белки",
+          "value": "3",
+          "unit": "г"
+        },
+        "fats": {
+          "name": "жиры",
+          "value": "1",
+          "unit": "г"
+        },
+        "carbohydrates": {
+          "name": "углеводы",
+          "value": "36",
+          "unit": "г"
+        },
+        "description": {
+          "value": "На 100 г по открытым данным для подобных блюд"
+        }
+      },
+      "publicId": "fd6e8f06-624c-482a-aca7-9c5a8ac9d6d8"
+    },
+    {
+      "id": 3008846123,
+      "name": "Вегетарианская с фалафелем XL",
+      "description": "",
+      "descriptions": [
+        {
+          "title": "Состав",
+          "text": "Лаваш, фалафель, капуста, огурец, соус терияки, томат, оливки, фирменный соус",
+          "expanded_text": "Весь состав",
+          "collapsed_text": "Свернуть",
+          "collapsed_text_lines_count": 3
+        }
+      ],
+      "available": true,
+      "inStock": null,
+      "price": 13,
+      "decimalPrice": "12.5",
+      "promoTypes": [],
+      "optionsGroups": [
+        {
+          "id": 2024091469,
+          "name": "Соусы",
+          "options": [
+            {
+              "id": 30291236975,
+              "name": "Чили",
+              "price": 2,
+              "decimalPrice": "1.5",
+              "multiplier": 1
+            },
+            {
+              "id": 30291236976,
+              "name": "Сырный",
+              "price": 2,
+              "decimalPrice": "1.5",
+              "multiplier": 1
+            },
+            {
+              "id": 30291236977,
+              "name": "BBQ",
+              "price": 2,
+              "decimalPrice": "1.5",
+              "multiplier": 1
+            },
+            {
+              "id": 30291236978,
+              "name": "Горчичный",
+              "price": 2,
+              "decimalPrice": "1.5",
+              "multiplier": 1
+            },
+            {
+              "id": 30291236979,
+              "name": "Кавказский",
+              "price": 2,
+              "decimalPrice": "1.5",
+              "multiplier": 1
+            },
+            {
+              "id": 30291236980,
+              "name": "Кисло-сладкий",
+              "price": 2,
+              "decimalPrice": "1.5",
+              "multiplier": 1
+            }
+          ],
+          "required": false,
+          "minSelected": 0,
+          "maxSelected": 1
+        },
+        {
+          "id": 2024091470,
+          "name": "Дополнительно",
+          "options": [
+            {
+              "id": 30291236981,
+              "name": "Томат свежий",
+              "price": 2,
+              "decimalPrice": "1.5",
+              "multiplier": 1
+            },
+            {
+              "id": 30291236982,
+              "name": "Курица гриль",
+              "price": 3,
+              "decimalPrice": "3",
+              "multiplier": 1
+            },
+            {
+              "id": 30291236983,
+              "name": "Колбаска BBQ",
+              "price": 3,
+              "decimalPrice": "3",
+              "multiplier": 1
+            },
+            {
+              "id": 30291236984,
+              "name": "Огурец маринованный",
+              "price": 2,
+              "decimalPrice": "1.5",
+              "multiplier": 1
+            },
+            {
+              "id": 30291236985,
+              "name": "Лук маринованный",
+              "price": 1,
+              "decimalPrice": "0.75",
+              "multiplier": 1
+            },
+            {
+              "id": 30291236986,
+              "name": "Морковь по-корейски",
+              "price": 1,
+              "decimalPrice": "0.75",
+              "multiplier": 1
+            },
+            {
+              "id": 30291236987,
+              "name": "Оливки",
+              "price": 2,
+              "decimalPrice": "1.5",
+              "multiplier": 1
+            },
+            {
+              "id": 30291236988,
+              "name": "Сыр",
+              "price": 2,
+              "decimalPrice": "1.5",
+              "multiplier": 1
+            },
+            {
+              "id": 30291236989,
+              "name": "Халапеньо",
+              "price": 2,
+              "decimalPrice": "1.5",
+              "multiplier": 1
+            },
+            {
+              "id": 30291236990,
+              "name": "Грибы",
+              "price": 2,
+              "decimalPrice": "1.5",
+              "multiplier": 1
+            },
+            {
+              "id": 30291236991,
+              "name": "Картофель фри",
+              "price": 2,
+              "decimalPrice": "1.5",
+              "multiplier": 1
+            }
+          ],
+          "required": false,
+          "minSelected": 0,
+          "maxSelected": 1
+        }
+      ],
+      "picture": {
+        "uri": "/images/3583740/68eb2d27c3bb424d9c34f196a62d6238-{w}x{h}.jpeg",
+        "ratio": 1,
+        "scale": "aspect_fill"
+      },
+      "weight": "500 г",
+      "adult": false,
+      "shippingType": "all",
+      "measure": {
+        "value": "500",
+        "measure_unit": "g"
+      },
+      "publicId": "ea4e53ce-41b2-4821-92e0-e5653d28569e",
+      "badges": [
+        {
+          "text": {
+            "value": "МЕГАПОРЦИЯ",
+            "color": {
+              "light": "#FFFFFF",
+              "dark": "#FFFFFF"
+            }
+          },
+          "background": {
+            "light": "#3C3B3A",
+            "dark": "#3C3B3A"
+          }
+        }
+      ],
+      "badges_preview": [
+        {
+          "text": {
+            "value": "МЕГАПОРЦИЯ",
+            "color": {
+              "light": "#FFFFFF",
+              "dark": "#FFFFFF"
+            }
+          },
+          "background": {
+            "light": "#3C3B3A",
+            "dark": "#3C3B3A"
+          }
+        }
+      ]
+    },
+    {
+      "id": 3008846124,
+      "name": "Американская L",
+      "description": "",
+      "descriptions": [
+        {
+          "title": "Состав",
+          "text": "Лаваш, курица гриль, капуста, картофель фри, соус сырный, огурец, томат, кетчуп, фирменный соус",
+          "expanded_text": "Весь состав",
+          "collapsed_text": "Свернуть",
+          "collapsed_text_lines_count": 3
+        }
+      ],
+      "available": true,
+      "inStock": null,
+      "price": 12,
+      "decimalPrice": "11.5",
+      "promoTypes": [],
+      "optionsGroups": [
+        {
+          "id": 2024091472,
+          "name": "Добавки",
+          "options": [
+            {
+              "id": 30291236998,
+              "name": "Томат свежий",
+              "price": 2,
+              "decimalPrice": "1.5",
+              "multiplier": 1
+            },
+            {
+              "id": 30291236999,
+              "name": "Курица гриль",
+              "price": 3,
+              "decimalPrice": "3",
+              "multiplier": 1
+            },
+            {
+              "id": 30291237000,
+              "name": "Колбаска BBQ",
+              "price": 3,
+              "decimalPrice": "3",
+              "multiplier": 1
+            },
+            {
+              "id": 30291237001,
+              "name": "Огурец маринованный",
+              "price": 2,
+              "decimalPrice": "1.5",
+              "multiplier": 1
+            },
+            {
+              "id": 30291237002,
+              "name": "Лук маринованный",
+              "price": 1,
+              "decimalPrice": "0.75",
+              "multiplier": 1
+            },
+            {
+              "id": 30291237003,
+              "name": "Морковь по-корейски",
+              "price": 1,
+              "decimalPrice": "0.75",
+              "multiplier": 1
+            },
+            {
+              "id": 30291237004,
+              "name": "Оливки",
+              "price": 2,
+              "decimalPrice": "1.5",
+              "multiplier": 1
+            },
+            {
+              "id": 30291237005,
+              "name": "Сыр",
+              "price": 2,
+              "decimalPrice": "1.5",
+              "multiplier": 1
+            },
+            {
+              "id": 30291237006,
+              "name": "Халапеньо",
+              "price": 2,
+              "decimalPrice": "1.5",
+              "multiplier": 1
+            },
+            {
+              "id": 30291237007,
+              "name": "Грибы",
+              "price": 2,
+              "decimalPrice": "1.5",
+              "multiplier": 1
+            },
+            {
+              "id": 30291237008,
+              "name": "Картофель фри",
+              "price": 2,
+              "decimalPrice": "1.5",
+              "multiplier": 1
+            }
+          ],
+          "required": false,
+          "minSelected": 0,
+          "maxSelected": 1
+        },
+        {
+          "id": 2049183205,
+          "name": "Соусы",
+          "options": [
+            {
+              "id": 30657414654,
+              "name": "Сырный",
+              "price": 2,
+              "decimalPrice": "1.5",
+              "multiplier": 1
+            },
+            {
+              "id": 30657414655,
+              "name": "BBQ",
+              "price": 2,
+              "decimalPrice": "1.5",
+              "multiplier": 1
+            },
+            {
+              "id": 30657414656,
+              "name": "Горчичный",
+              "price": 2,
+              "decimalPrice": "1.5",
+              "multiplier": 1
+            },
+            {
+              "id": 30657414657,
+              "name": "Кавказский",
+              "price": 2,
+              "decimalPrice": "1.5",
+              "multiplier": 1
+            },
+            {
+              "id": 30657414658,
+              "name": "Кисло-сладкий",
+              "price": 2,
+              "decimalPrice": "1.5",
+              "multiplier": 1
+            },
+            {
+              "id": 30657414659,
+              "name": "Чили острый",
+              "price": 2,
+              "decimalPrice": "1.5",
+              "multiplier": 1
+            }
+          ],
+          "required": false,
+          "minSelected": 0,
+          "maxSelected": 1
+        }
+      ],
+      "picture": {
+        "uri": "/images/3813301/23358961f963494fa38ec2e6f6eafec7-{w}x{h}.jpeg",
+        "ratio": 1,
+        "scale": "aspect_fill"
+      },
+      "weight": "350 г",
+      "adult": false,
+      "shippingType": "all",
+      "measure": {
+        "value": "350",
+        "measure_unit": "g"
+      },
+      "nutrients_detailed": {
+        "calories": {
+          "name": "ккал",
+          "value": "215",
+          "unit": "ккал"
+        },
+        "proteins": {
+          "name": "белки",
+          "value": "10",
+          "unit": "г"
+        },
+        "fats": {
+          "name": "жиры",
+          "value": "13",
+          "unit": "г"
+        },
+        "carbohydrates": {
+          "name": "углеводы",
+          "value": "14",
+          "unit": "г"
+        },
+        "description": {
+          "value": "На 100 г по открытым данным для подобных блюд"
+        }
+      },
+      "publicId": "33736ac0-c396-433b-bd6a-f265f580bd5d"
+    },
+    {
+      "id": 3008846125,
+      "name": "Американская XL",
+      "description": "",
+      "descriptions": [
+        {
+          "title": "Состав",
+          "text": "Лаваш, курица гриль, капуста, картофель фри, соус сырный, огурец, томат, кетчуп, фирменный соус",
+          "expanded_text": "Весь состав",
+          "collapsed_text": "Свернуть",
+          "collapsed_text_lines_count": 3
+        }
+      ],
+      "available": true,
+      "inStock": null,
+      "price": 14,
+      "decimalPrice": "13.5",
+      "promoTypes": [],
+      "optionsGroups": [
+        {
+          "id": 2024091473,
+          "name": "Дополнительно",
+          "options": [
+            {
+              "id": 30291237009,
+              "name": "Томат свежий",
+              "price": 2,
+              "decimalPrice": "1.5",
+              "multiplier": 1
+            },
+            {
+              "id": 30291237010,
+              "name": "Курица гриль",
+              "price": 3,
+              "decimalPrice": "3",
+              "multiplier": 1
+            },
+            {
+              "id": 30291237011,
+              "name": "Колбаска BBQ",
+              "price": 3,
+              "decimalPrice": "3",
+              "multiplier": 1
+            },
+            {
+              "id": 30291237012,
+              "name": "Огурец маринованный",
+              "price": 2,
+              "decimalPrice": "1.5",
+              "multiplier": 1
+            },
+            {
+              "id": 30291237013,
+              "name": "Лук маринованный",
+              "price": 1,
+              "decimalPrice": "0.75",
+              "multiplier": 1
+            },
+            {
+              "id": 30291237014,
+              "name": "Морковь по-корейски",
+              "price": 1,
+              "decimalPrice": "0.75",
+              "multiplier": 1
+            },
+            {
+              "id": 30291237015,
+              "name": "Оливки",
+              "price": 2,
+              "decimalPrice": "1.5",
+              "multiplier": 1
+            },
+            {
+              "id": 30291237016,
+              "name": "Сыр",
+              "price": 2,
+              "decimalPrice": "1.5",
+              "multiplier": 1
+            },
+            {
+              "id": 30291237017,
+              "name": "Халапеньо",
+              "price": 2,
+              "decimalPrice": "1.5",
+              "multiplier": 1
+            },
+            {
+              "id": 30291237018,
+              "name": "Грибы",
+              "price": 2,
+              "decimalPrice": "1.5",
+              "multiplier": 1
+            },
+            {
+              "id": 30291237019,
+              "name": "Картофель фри",
+              "price": 2,
+              "decimalPrice": "1.5",
+              "multiplier": 1
+            }
+          ],
+          "required": false,
+          "minSelected": 0,
+          "maxSelected": 1
+        },
+        {
+          "id": 2024091474,
+          "name": "Соус на выбор",
+          "options": [
+            {
+              "id": 30291237020,
+              "name": "Чили",
+              "price": 2,
+              "decimalPrice": "1.5",
+              "multiplier": 1
+            },
+            {
+              "id": 30291237021,
+              "name": "Сырный",
+              "price": 2,
+              "decimalPrice": "1.5",
+              "multiplier": 1
+            },
+            {
+              "id": 30291237022,
+              "name": "BBQ",
+              "price": 2,
+              "decimalPrice": "1.5",
+              "multiplier": 1
+            },
+            {
+              "id": 30291237023,
+              "name": "Горчичный",
+              "price": 2,
+              "decimalPrice": "1.5",
+              "multiplier": 1
+            },
+            {
+              "id": 30291237024,
+              "name": "Кавказский",
+              "price": 2,
+              "decimalPrice": "1.5",
+              "multiplier": 1
+            },
+            {
+              "id": 30291237025,
+              "name": "Кисло-сладкий",
+              "price": 2,
+              "decimalPrice": "1.5",
+              "multiplier": 1
+            }
+          ],
+          "required": false,
+          "minSelected": 0,
+          "maxSelected": 1
+        }
+      ],
+      "picture": {
+        "uri": "/images/3807631/dfd8169100174a34abe30cbbdd3bbedd-{w}x{h}.jpeg",
+        "ratio": 1,
+        "scale": "aspect_fill"
+      },
+      "weight": "500 г",
+      "adult": false,
+      "shippingType": "all",
+      "measure": {
+        "value": "500",
+        "measure_unit": "g"
+      },
+      "publicId": "b4b6ce30-8132-4a6a-8298-a783490c432d",
+      "badges": [
+        {
+          "text": {
+            "value": "МЕГАПОРЦИЯ",
+            "color": {
+              "light": "#FFFFFF",
+              "dark": "#FFFFFF"
+            }
+          },
+          "background": {
+            "light": "#3C3B3A",
+            "dark": "#3C3B3A"
+          }
+        }
+      ],
+      "badges_preview": [
+        {
+          "text": {
+            "value": "МЕГАПОРЦИЯ",
+            "color": {
+              "light": "#FFFFFF",
+              "dark": "#FFFFFF"
+            }
+          },
+          "background": {
+            "light": "#3C3B3A",
+            "dark": "#3C3B3A"
+          }
+        }
+      ]
+    }
+  ]

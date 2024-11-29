@@ -1,11 +1,14 @@
-async function fillMenuDiv() {
-  let response = await fetch("/api/menu/all", {
-    method: "GET",
-  });
-
-  let responseText = await response.text();
-
-  menuDiv.innerHTML = responseText;
-}
-
-fillMenuDiv()
+async function getAll() {
+    const response = await fetch("/api/menu/get", {
+      method: "GET",
+      headers: {
+        "Content-Type": "application/json",
+      },
+    });
+  
+    let responseText = await response.text();
+  
+    resultDiv.innerHTML = responseText;
+  }
+  
+  getAll();

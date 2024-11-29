@@ -1,8 +1,10 @@
 const express = require("express");
-const controlller = require("../controller/controller");
+const { getAllMenu } = require("../controllers/controller");
 
-const MenuRouter = express.Router();
+const router = express.Router();
 
-MenuRouter.get("/all", controlller.getAllMenu);
+router.get("/get", (req, res) => {
+  getAllMenu(req, res);
+});
 
-module.exports = MenuRouter;
+module.exports = router;
