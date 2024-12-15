@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title></title>
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="/js/script.js" defer></script>
+    <script src="/js/orderPageScript.js" defer></script>
+  </head>
+  <body>
+    <header class="header">
+      <a href="/"><img src="img/logo.jpg" alt="logo" class="logo" /></a>
+
+      <nav class="nav">
+        <button id="menuButton" class="button">меню</button>
+        <button class="button"><a href="/map">Наши заведения</a></button>
+      </nav>
+    </header>
+
+
+    <form id="orderForm" action="/api/order/create" method="POST">
+
+      <p>выберите шаурму</p>
+      <select name="shawaType" id="shawaTypeSelect" required></select>
+
+      <p>выберите добавку</p>
+      <select name="adds" id="addsSelect"></select>
+
+      <p>выберите соус</p>
+      <select name="sause" id="sauseSelect" required></select>
+
+      <button class="button" id="orderFormButton">Заказать</button>
+    </form>
+
+    <button class="button"><a href="/">на главную</a></button>
+  </body>
+</html>

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title></title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/menuPageStyle.css" />
+    <script src="/js/menuPageScript.js" defer></script>
+  </head>
+  <body>
+    <header class="header">
+      <a href="/"><img src="img/logo.jpg" alt="logo" class="logo" /></a>
+
+      <nav class="nav">
+        <button id="menuButton" class="button">меню</button>
+        <button class="button"><a href="/map">Наши заведения</a></button>
+      </nav>
+    </header>
+
+    <div class="container">
+      <div class="filters" id="filters">
+        <div>
+          цена(минимум)
+          <input type="text" id="minPriceInp" />
+          цена(максимум)
+          <input type="text" id="maxPriceInp" />
+        </div>
+        <div>
+          <button class="button" id="applyButton">применить фильтры</button>
+          <button class="button" id="cleanButton">убрать фильтры</button>
+        </div>
+      </div>
+
+      <div id="resultDiv" class="resultDiv"></div>
+    </div>
+  </body>
+</html>

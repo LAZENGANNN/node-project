@@ -12,3 +12,36 @@ async function getAll() {
   }
   
   getAll();
+
+
+  
+    
+  
+  const menuButton = document.getElementById("menuButton")
+
+  console.log(menuButton)
+
+  menuButton.addEventListener("click",()=>{
+    window.location = "/menu"
+  })
+
+  // const buttonsArr = document.getElementsByClassName("cardOrderButton")
+
+
+
+  // console.log(document.querySelectorAll(".cardOrderButton"))
+
+
+ 
+
+
+// async function sendPOSTfromCard(){
+
+//   const response = await fetch("/api/order/send", {
+//     method: "GET",
+//     headers: {
+//       "Content-Type": "application/json",
+//     },
+//   });
+
+// }
