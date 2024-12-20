@@ -5,7 +5,6 @@ const { getAllMenu, getOptions, getFiltedMenu } = require("../controllers/contro
 
 const menuRouter = express.Router();
 
-
 menuRouter.get("/", (req,res)=>{
   getFiltedMenu(req, res)
 })

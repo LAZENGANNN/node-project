@@ -2,7 +2,6 @@ const { getData } = require("../data/dataController");
 
 const path = require("path");
 const fs = require("fs");
-const { query } = require("express");
 
 const getAllMenu = (req, res) => {
   const menu = getData("shawa").shawa;
@@ -27,7 +26,6 @@ const getAllMenu = (req, res) => {
   res.render("card.hbs", objToRender);
 };
 
-
 const getFiltedMenu = (req, res) => {
   const menu = getData("shawa").shawa;
 
@@ -45,30 +43,21 @@ const getFiltedMenu = (req, res) => {
       photo: `GK_shawa.png`,
     };
 
-    // if(req.query){
-    //   if(obj.price >= req.query.minPrice && obj <=req.query.maxPrice){
-    //     objToRender.shawa.push(obj);
-    //   }
-    // }else{
-    //   objToRender.shawa.push(obj);
-    // }
+    if (req.query.filters === "true") {
+      const minPrice = Number(req.query.minPrice);
+      const maxPrice = Number(req.query.maxPrice);
+      const price = Number(obj.price);
 
-    
-
-    objToRender.shawa.push(obj);
+      if (price >= minPrice && price <= maxPrice) {
+        objToRender.shawa.push(obj);
+      }
+    } else {
+      objToRender.shawa.push(obj);
+    }
   });
 
-  if(req.query.filters === "true"){
-    console.log(true)
-  }else{
-    console.log(false)
-  }
-
-  console.log(req.query)
-
-
-  res.render("menuPage.hbs", objToRender)
-}
+  res.render("menuPage.hbs", objToRender);
+};
 
 const getOptions = (req, res) => {
   const menu = getData("shawa").shawa;
@@ -98,6 +87,13 @@ const getShawaNames = () => {
 
   res.send(names);
 };
+
+const createUser  = (req, res) =>{
+  
+
+
+
+}
 
 module.exports = {
   getAllMenu,
