@@ -5,7 +5,7 @@ const express = require("express");
 const orderRouter = express.Router();
 
 orderRouter.get("/", (req, res) => {
-  res.status(200).sendFile(path.join(__dirname, "../public/html/orderPage.html"));
+  res.render("pages/orderPage.hbs")
 });
 
 orderRouter.post("/create", (req, res) => {

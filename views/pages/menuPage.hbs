@@ -1,0 +1,50 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title></title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/menuPageStyle.css" />
+    <script src="/js/menuPageScript.js" defer></script>
+  </head>
+  <body>
+    {{> header}}
+
+    <div class="container">
+      <div class="filters" id="filters">
+        <div>
+          цена(минимум)
+          <input type="number" id="minPriceInp" />
+          цена(максимум)
+          <input type="number" id="maxPriceInp" />
+        </div>
+        <div>
+          <button class="button" id="applyButton">применить фильтры</button>
+          <button class="button" id="cleanButton">убрать фильтры</button>
+        </div>
+      </div>
+
+      <div id="resultDiv" class="resultDiv">
+        {{#each shawa}}
+          <div class="card">
+            <h3>{{name}}</h3>
+
+            <img src="/img/GK_shawa.png" alt="photo" class="cardImg" />
+
+            <div class="struct">
+              состав:
+              <p style="margin: 0;">{{description}}</p>
+            </div>
+            <h3 class="price"> {{price}}</h3>
+            <button class="button cardOrderButton" id="cardOrderButton"><a
+                href="/order"
+              >ЗАКАЗАТЬ</a></button>
+
+          </div>
+
+        {{/each}}
+
+      </div>
+    </div>
+  </body>
+</html>
