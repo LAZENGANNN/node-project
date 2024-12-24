@@ -1,6 +1,7 @@
 const path = require("path");
 
 const express = require("express");
+const { addUser, auth } = require("../controllers/usersController");
 const urlencodedParser = express.urlencoded({extended: false});
 
 const userRouter = express.Router();
@@ -17,15 +18,23 @@ userRouter.use(express.static(path.join(process.cwd(), "public")));
 userRouter.get("/register", (req, res) => {
     console.log(path.join(process.cwd(), "public"))
 
-  res.render("registerPage.hbs")
+  res.render("pages/registerPage.hbs")
 });
 
 
 //api
 userRouter.post("/create", urlencodedParser, (req, res)=>{
     if(!req.body) return res.sendStatus(400);
-    console.log(req.body);
-    res.send(`${req.body.login}`);
+    addUser(req, res, req.body)  
+})
+
+userRouter.post("/auth", urlencodedParser, (req, res)=>{
+  if(!req.body) return res.sendStatus(400);
+  auth(req, res, req.body)  
+})
+
+userRouter.get("/general", (req, res)=>{
+
 })
 
 

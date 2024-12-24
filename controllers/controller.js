@@ -56,7 +56,7 @@ const getFiltedMenu = (req, res) => {
     }
   });
 
-  res.render("menuPage.hbs", objToRender);
+  res.render("pages/menuPage.hbs", objToRender);
 };
 
 const getOptions = (req, res) => {
