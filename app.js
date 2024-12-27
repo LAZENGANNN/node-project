@@ -23,7 +23,7 @@ app.get("/map", (req, res) => {
   res.render("pages/mapPage.hbs");
 });
 
-app.listen(7777, () => {
+app.listen(port, () => {
   console.log(`http://localhost:${port}`);
 });
 
