@@ -1,8 +1,6 @@
 require("dotenv").config();
 
-const { log } = require("console");
 const nodemailer = require("nodemailer");
-const path = require("path");
 
 const gmailUser = process.env.GMAIL_USER;
 const gmailPasskey = process.env.GMAIL_PASS_KEY;
@@ -24,7 +22,7 @@ const sendRegisterMail = (to, code) => {
 
   transporter.sendMail(
     {
-      from: `Pet-project <${gmailUser}@gmail.com>`,
+      from: `Шаурмичка <${gmailUser}@gmail.com>`,
 
       to,
 

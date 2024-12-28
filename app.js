@@ -2,11 +2,21 @@ const express = require("express");
 const path = require("path");
 const mainRouter = require("./routers/mainRouter");
 const hbs = require("hbs");
+const crypto = require("crypto");
+const session = require("express-session");
 
 require("dotenv").config();
 
 const port = process.env.PORT;
 const app = express();
+
+app.use(
+  session({
+    secret: crypto.randomBytes(32).toString("hex"),
+    resave: true,
+    saveUninitialized: true,
+  })
+)
 
 app.use(express.static(path.join(__dirname, "public")));
 
@@ -19,22 +29,6 @@ hbs.registerPartials(__dirname + "/views/partials");
 
 app.use("/", mainRouter);
 
-app.get("/map", (req, res) => {
-  res.render("pages/mapPage.hbs");
-});
-
 app.listen(port, () => {
   console.log(`http://localhost:${port}`);
 });
-
-//ПИСЬМА
-
-// Для получения кода:
-// -> google (профиль)
-// -> security (безопаность)
-// -> 2-Step Verification (2-этапная авторизация)
-// -> App passwords (пароли приложений)
-
-// Первые полторы минуты https://www.youtube.com/watch?v=74QQfPrk4vE
-// Либо ещё https://www.getmailbird.com/gmail-app-password/
-// https://support.google.com/mail/answer/185833?hl=en

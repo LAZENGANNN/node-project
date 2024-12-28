@@ -1,7 +1,7 @@
 const path = require("path");
 
 const express = require("express");
-const { addUser, auth } = require("../controllers/usersController");
+const { addUser, auth, register2 } = require("../controllers/usersController");
 const urlencodedParser = express.urlencoded({extended: false});
 
 const userRouter = express.Router();
@@ -32,6 +32,11 @@ userRouter.post("/auth", urlencodedParser, (req, res)=>{
   if(!req.body) return res.sendStatus(400);
   auth(req, res, req.body)  
 })
+
+userRouter.post("/code", urlencodedParser, (req, res)=>{
+  register2(req, res, req.body)
+})
+
 
 userRouter.get("/general", (req, res)=>{
 

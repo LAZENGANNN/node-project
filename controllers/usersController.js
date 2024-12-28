@@ -5,9 +5,7 @@ const fs = require("fs");
 const { sendRegisterMail } = require("../utils/mails");
 const { getRandomInt } = require("../utils/randomtron");
 
-const addUser = (req, res, userData) => {
-  let data = getData("users");
-
+const register1 = (req, res, userData) => {
   const password = userData.password;
 
   if (password === userData.password2) {
@@ -23,14 +21,26 @@ const addUser = (req, res, userData) => {
 
     sendRegisterMail(userData.email, code);
 
-    data.push(user);
-    console.log(data);
+    req.session.data = { regCode: code, user };
 
+    res.render("pages/checkCodePage.hbs");
+  } else {
+    res.send("ERROR");
+  }
+};
+
+const register2 = (req, res, userData) => {
+  const emailCode = req.session.data.regCode;
+
+  if (emailCode === Number(userData.code)) {
+    let data = getData("users");
+    const user = req.session.data.user;
+    data.push(user);
     editData("users", data);
 
     res.send(`регистрация успешна<br><a href="/">на главную</a>`);
   } else {
-    res.send("ERROR");
+    res.send(`не верный код`);
   }
 };
 
@@ -50,6 +60,7 @@ const auth = (req, res, userData) => {
 };
 
 module.exports = {
-  addUser,
+  addUser: register1,
   auth,
+  register2,
 };
