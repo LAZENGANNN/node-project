@@ -88,12 +88,7 @@ const getShawaNames = () => {
   res.send(names);
 };
 
-const createUser  = (req, res) =>{
-  
-
-
-
-}
+const createUser = (req, res) => {};
 
 module.exports = {
   getAllMenu,

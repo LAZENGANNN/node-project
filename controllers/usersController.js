@@ -5,6 +5,15 @@ const fs = require("fs");
 const { sendRegisterMail } = require("../utils/mails");
 const { getRandomInt } = require("../utils/randomtron");
 
+const checkAuth = (req, res) => {
+  console.log(req.session.data);
+  if (req.session.data.isAuth) {
+    res.redirect("http://localhost:7777/user/general");
+  } else {
+    res.redirect("http://localhost:7777/user/register");
+  }
+};
+
 const register1 = (req, res, userData) => {
   const password = userData.password;
 
@@ -40,7 +49,7 @@ const register2 = (req, res, userData) => {
 
     res.send(`регистрация успешна<br><a href="/">на главную</a>`);
   } else {
-    res.send(`не верный код`);
+    res.send(`неверный код`);
   }
 };
 
@@ -55,12 +64,32 @@ const auth = (req, res, userData) => {
   if (a.length != 1) {
     res.send('<h1 style="color: red;">пользователь не найден</h1>');
   } else {
-    res.render("pages/userPage.hbs", a[0]);
+    req.session.data.isAuth = true;
+    req.session.data.currentUser.login = a[0].login;
+    console.log(req.session.data);
+
+    res.redirect("http://localhost:7777/user/general");
   }
 };
 
+const fastAuth = (req, res) => {
+  const data = getData("users");
+
+  const sessionData = req.session.data;
+  const AuthedLogin = sessionData.currentUser.login;
+
+  const currentUserArr = data.filter((el) => {
+    const user = el.login === AuthedLogin;
+    return user === true;
+  });
+
+  res.render("pages/userPage.hbs", currentUserArr[0]);
+};
+
 module.exports = {
-  addUser: register1,
+  register1,
   auth,
   register2,
+  checkAuth,
+  fastAuth,
 };

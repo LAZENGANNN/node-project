@@ -16,7 +16,36 @@ app.use(
     resave: true,
     saveUninitialized: true,
   })
-)
+);
+
+//формирует session.data в виде
+// {
+//   isAuth: false,
+//   currentUser: {
+//     /*данные пользователя*/
+//     login: null,
+//     cart: [
+//       /*корзина*/
+//     ],
+//   },
+// };
+
+app.use((req, res, next) => {
+  const data = "";
+  if (!req.session.data) {
+    req.session.data = {
+      isAuth: false,
+      currentUser: {
+        login: null,
+        cart: [],
+      },
+    };
+  }
+
+  console.log(req.session);
+
+  next();
+});
 
 app.use(express.static(path.join(__dirname, "public")));
 
