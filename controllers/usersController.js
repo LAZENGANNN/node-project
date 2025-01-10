@@ -86,10 +86,35 @@ const fastAuth = (req, res) => {
   res.render("pages/userPage.hbs", currentUserArr[0]);
 };
 
+const logOut = (req, res) => {
+  const sessionData = req.session.data;
+  sessionData.isAuth = false;
+  sessionData.currentUser = { login: null, cart: [] };
+
+  res.send("вы вышли из профиля");
+};
+
+const getCart = (req, res) => {
+  const data = getData("users");
+
+  const AuthedLogin = req.body.login;
+
+  const currentUserArr = data.filter((el) => {
+    const user = el.login === AuthedLogin;
+    return user === true;
+  });
+
+  const cart = currentUserArr[0].cart;
+
+  res.send(JSON.stringify(cart));
+};
+
 module.exports = {
   register1,
   auth,
   register2,
   checkAuth,
   fastAuth,
+  logOut,
+  getCart,
 };

@@ -7,14 +7,16 @@ const {
   register2,
   checkAuth,
   fastAuth,
+  logOut,
+  getCart,
 } = require("../controllers/usersController");
 const urlencodedParser = express.urlencoded({ extended: false });
 
 const userRouter = express.Router();
 
-// userRouter.get("/", (req, res) => {
-//   res.status(200).sendFile(path.join(__dirname, "../public/html/orderPage.html"));
-// });
+const bodyParser = require("body-parser");
+userRouter.use(bodyParser.urlencoded({ extended: false }));
+userRouter.use(bodyParser.json());
 
 userRouter.use(express.static(path.join(process.cwd(), "public")));
 
@@ -23,8 +25,7 @@ userRouter.get("/checkAuth", (req, res) => {
 });
 
 userRouter.get("/register", (req, res) => {
-  console.log(path.join(process.cwd(), "public"));
-
+  // console.log(path.join(process.cwd(), "public"));
   res.render("pages/registerPage.hbs");
 });
 
@@ -45,6 +46,14 @@ userRouter.post("/auth", urlencodedParser, (req, res) => {
 
 userRouter.post("/code", urlencodedParser, (req, res) => {
   register2(req, res, req.body);
+});
+
+userRouter.get("/logOut", (req, res) => {
+  logOut(req, res);
+});
+
+userRouter.post("/getCart", (req, res) => {
+  getCart(req, res);
 });
 
 module.exports = userRouter;

@@ -76,6 +76,12 @@ const getOptions = (req, res) => {
   res.send(JSON.stringify(opts));
 };
 
+const getAddresses = (req, res) => {
+  const adds = getData("adresses");
+
+  res.send(JSON.stringify(adds));
+};
+
 const getShawaNames = () => {
   const menu = getData("shawa").shawa;
 
@@ -88,10 +94,9 @@ const getShawaNames = () => {
   res.send(names);
 };
 
-const createUser = (req, res) => {};
-
 module.exports = {
   getAllMenu,
   getOptions,
   getFiltedMenu,
+  getAddresses,
 };

@@ -3,6 +3,7 @@ const apiRouter = require("./apiRouter");
 const menuRouter = require("./menuRouter");
 const orderRouter = require("./orderRouter");
 const userRouter = require("./userRouter");
+const checkoutRouter = require("./checkoutRouter");
 
 const mainRouter = express.Router();
 
@@ -17,5 +18,9 @@ mainRouter.use("/menu", menuRouter);
 mainRouter.use("/order", orderRouter);
 
 mainRouter.use("/user", userRouter);
+
+mainRouter.use("/checkout", checkoutRouter)
+
+
 
 module.exports = mainRouter;

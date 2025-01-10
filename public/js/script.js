@@ -1,39 +1,25 @@
 async function getAll() {
-    const response = await fetch("/api/menu/get", {
-      method: "GET",
-      headers: {
-        "Content-Type": "application/json",
-      },
-    });
-  
-    let responseText = await response.text();
-  
-    resultDiv.innerHTML = responseText;
-  }
-  
-  getAll();
+  const response = await fetch("/api/menu/get", {
+    method: "GET",
+    headers: {
+      "Content-Type": "application/json",
+    },
+  });
 
+  let responseText = await response.text();
 
-  
-    
-  
-  const menuButton = document.getElementById("menuButton")
+  resultDiv.innerHTML = responseText;
+}
 
-  console.log(menuButton)
+getAll();
 
-  menuButton.addEventListener("click",()=>{
-    window.location = "/menu"
-  })
+const menuButton = document.getElementById("menuButton");
 
-  // const buttonsArr = document.getElementsByClassName("cardOrderButton")
+console.log(menuButton);
 
-
-
-  // console.log(document.querySelectorAll(".cardOrderButton"))
-
-
- 
-
+menuButton.addEventListener("click", () => {
+  window.location = "/menu";
+});
 
 // async function sendPOSTfromCard(){
 

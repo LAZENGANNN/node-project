@@ -31,7 +31,7 @@ app.use(
 // };
 
 app.use((req, res, next) => {
-  const data = "";
+  const data = ''
   if (!req.session.data) {
     req.session.data = {
       isAuth: false,
@@ -42,8 +42,7 @@ app.use((req, res, next) => {
     };
   }
 
-  console.log(req.session);
-
+  // console.log(req.session);
   next();
 });
 

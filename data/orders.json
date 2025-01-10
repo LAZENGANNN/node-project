@@ -1,8 +1,8 @@
 [
   {
-    "login": "LAZENGANNN",
-    "password": "123",
-    "email": "zhroman7@gmail.com",
+    "user": { "login": "LAZENGANNN", "email": "zhroman7@gmail.com" },
+    "data": "2025-01-08T15:41:37.642Z",
+    "adress": "ул. Фроликова, 8",
     "cart": [
       {
         "type": "Классическая L",
@@ -14,7 +14,6 @@
         "adds": "Огурец маринованный",
         "sause": "Чили"
       }
-    ],
-    "story": []
+    ]
   }
 ]

@@ -1,7 +1,3 @@
-// if (query.has("maxprice")) maxpriceInput.value = query.get("maxprice");
-// if (query.has("brand")) brandInput.value = query.get("brand");
-// if (query.has("sort")) sortCheckbox.checked = query.get("sort") == "true";
-
 async function queryFilters() {
   const maxPrice = maxPriceInp.value;
   const minPrice = minPriceInp.value;
