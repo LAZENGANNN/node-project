@@ -106,6 +106,7 @@ async function sendOrder() {
   let cart = await response1.json();
 
   const order = {
+    id: Math.floor(Math.random() * 999999),
     user: {
       login: loginInp.value,
       email: emailInp.value,
@@ -129,7 +130,12 @@ async function sendOrder() {
 
   let loc = await response2.text();
 
-  window.location = loc;
+  if(loc.includes("localhost")){
+    window.location = loc;
+  }else{
+    alert(loc)
+  }
+  
 }
 
 if (sendOrderButton) {

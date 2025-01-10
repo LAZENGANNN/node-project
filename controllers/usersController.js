@@ -8,9 +8,9 @@ const { getRandomInt } = require("../utils/randomtron");
 const checkAuth = (req, res) => {
   console.log(req.session.data);
   if (req.session.data.isAuth) {
-    res.redirect("http://localhost:7777/user/general");
+    return true;
   } else {
-    res.redirect("http://localhost:7777/user/register");
+    return false;
   }
 };
 
@@ -57,16 +57,24 @@ const auth = (req, res, userData) => {
   const data = getData("users");
 
   const a = data.filter((el) => {
-    const user =
+    const userBool =
       el.login === userData.login && el.password === userData.password;
-    return user === true;
+    return userBool === true;
   });
+  const user = a[0]
   if (a.length != 1) {
     res.send('<h1 style="color: red;">пользователь не найден</h1>');
   } else {
     req.session.data.isAuth = true;
-    req.session.data.currentUser.login = a[0].login;
+    req.session.data.currentUser.login = user.login;
     console.log(req.session.data);
+
+    const userCart = user.cart
+    const sessionCart = req.session.data.currentUser.cart
+
+    const newCart = userCart.push(...sessionCart)
+
+    user.cart = newCart
 
     res.redirect("http://localhost:7777/user/general");
   }
@@ -95,18 +103,26 @@ const logOut = (req, res) => {
 };
 
 const getCart = (req, res) => {
-  const data = getData("users");
+  if (checkAuth(req)) {
+    const data = getData("users");
 
-  const AuthedLogin = req.body.login;
+    const AuthedLogin = req.body.login;
 
-  const currentUserArr = data.filter((el) => {
-    const user = el.login === AuthedLogin;
-    return user === true;
-  });
+    const currentUserArr = data.filter((el) => {
+      const user = el.login === AuthedLogin;
+      return user === true;
+    });
 
-  const cart = currentUserArr[0].cart;
+    const cart = currentUserArr[0].cart;
 
-  res.send(JSON.stringify(cart));
+    res.send(JSON.stringify(cart));
+  } else {
+    const sessionData = req.session.data;
+
+    const cart = sessionData.currentUser.cart;
+
+    res.send(JSON.stringify(cart));
+  }
 };
 
 module.exports = {

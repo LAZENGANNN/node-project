@@ -21,7 +21,11 @@ userRouter.use(bodyParser.json());
 userRouter.use(express.static(path.join(process.cwd(), "public")));
 
 userRouter.get("/checkAuth", (req, res) => {
-  checkAuth(req, res);
+  if (checkAuth(req, res)) {
+    res.redirect("http://localhost:7777/user/general");
+  } else {
+    res.redirect("http://localhost:7777/user/register");
+  }
 });
 
 userRouter.get("/register", (req, res) => {

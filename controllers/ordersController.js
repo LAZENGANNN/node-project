@@ -1,4 +1,5 @@
 const { getData, editData } = require("../data/dataController");
+const { checkAuth } = require("./usersController");
 
 const addToCart = (req, res) => {
   const sessionData = req.session.data;
@@ -34,10 +35,8 @@ const checkout = (req, res) => {
   let users = getData("users");
   const sessionData = req.session.data;
 
-  if (sessionData.isAuth === true) {
+  if (checkAuth(req)) {
     const user = users.find((el) => el.login === sessionData.currentUser.login);
-
-    console.log(user);
 
     const objToRender = {
       login: user.login,
@@ -45,21 +44,56 @@ const checkout = (req, res) => {
       cart: user.cart,
     };
     res.render("pages/checkOutPage.hbs", objToRender);
+  }else{
+    const objToRender = {
+      login: `не авторизирован`,
+      email: `не авторизирован`,
+      cart: sessionData.currentUser.cart,
+    };
+    res.render("pages/checkOutPage.hbs", objToRender);
   }
 };
 
 const acceptOrder = (req, res) => {
-  const orders = getData("orders");
+  if (checkAuth(req)) {
+    const orders = getData("orders");
 
-  orders.push(req.body);
+    orders.push(req.body);
 
-  editData("orders", orders);
+    editData("orders", orders);
 
-  res.send("http://localhost:7777/checkout/tracker");
+    const id = req.body.id;
+    res.send(`http://localhost:7777/checkout/tracker?id=${id}`);
+  }else{
+    res.send(`Авторизируйтесь чтобы сделать заказ`)
+  }
+};
+
+const track = (req, res) => {
+  const sessionData = req.session.data;
+  const user = getData("users").find(
+    (el) => el.login === sessionData.currentUser.login
+  );
+
+  console.log(getData("orders"));
+
+  const order = getData("orders").find((el) => String(el.id) === req.query.id);
+  console.log(req.query.id);
+
+  console.log(order);
+
+  const objToRender = {
+    id: order.id,
+    cart: user.cart,
+    link: `http://localhost:7777/checkout/tracker?id=${order.id}`,
+  };
+
+  res.render("pages/trackPage.hbs", objToRender);
 };
 
 module.exports = {
   addToCart,
   checkout,
   acceptOrder,
+  track,
 };

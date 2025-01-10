@@ -3,12 +3,12 @@ const path = require("path");
 
 const checkoutRouter = express.Router();
 
-const { checkout } = require("../controllers/ordersController");
+const { checkout, track } = require("../controllers/ordersController");
 
 checkoutRouter.use(express.static(path.join(process.cwd(), "public")));
 
 checkoutRouter.get("/tracker", (req, res) => {
-  res.render("pages/trackPage.hbs");
+  track(req, res)
 });
 
 checkoutRouter.use("/", (req, res) => {
