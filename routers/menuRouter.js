@@ -1,7 +1,7 @@
 const path = require("path");
 
 const express = require("express");
-const { getAllMenu, getOptions, getFiltedMenu } = require("../controllers/controller");
+const { getAllMenu, getOptions, getFiltedMenu, getAddresses } = require("../controllers/controller");
 
 const menuRouter = express.Router();
 
@@ -18,6 +18,10 @@ menuRouter.get("/get", (req, res) => {
 menuRouter.get("/adds", (req, res) => {
   getOptions(req, res);
 });
+
+menuRouter.get("/addresses",(req,res)=>{
+  getAddresses(req, res)
+})
 
 
 

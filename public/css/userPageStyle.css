@@ -1,0 +1,17 @@
+.halfButton{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background-color: darkseagreen;
+    width: 150px;
+    padding: 10px;
+    border-bottom: white;
+    z-index: 100;
+    position: sticky;
+    max-height: 55px;
+}
+
+.contentDiv{
+    z-index: -10;
+    border: 2px solid black;
+    padding: 10px;
+}

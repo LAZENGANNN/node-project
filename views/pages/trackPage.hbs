@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title></title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/checkoutPageStyle.css">
+  <script src="js/script.js" defer></script>
+
+</head>
+
+<body>
+  {{> header}}
+
+  <div class="userContacts">
+    <ul>
+      <li>номер заказа: {{id}}</li>
+      <li>сумма: {{totalPrice}} рублей</li>
+      <li>ссылка на трекер: <a href="{{link}}">{{link}}</a></li>
+    </ul>
+    
+    
+  </div>
+  <div class="cartAlt">
+    ваш заказ:
+    {{#each cart}}
+    <div class="card">
+      <h3>{{type}}</h3>
+      <p>{{adds}}</p>
+      <p>{{sause}}</p>
+      <img style="border: 1px solid black; margin: 5px;" src="/img/GK_shawa.png" alt="photo" class="cardImg" />
+    </div>
+    {{/each}}
+  </div>
+
+</body>
+
+</html>

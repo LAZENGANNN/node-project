@@ -4,12 +4,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title></title>
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/registerPageStyle.css">
     <script src="js/userPageScript.js" defer></script>
   </head>
   <body>
     {{> header}}
-
-     <form id="createForm" action="/api/user/create" method="POST" class="container">
+<div class="mainCont">
+   <form id="createForm" action="/user/create" method="POST" class="container">
+        РЕГИСТРАЦИЯ
         <div>
           <input type="text" placeholder="login" name="login" required />
         </div>
@@ -20,7 +22,7 @@
           <input type="text" placeholder="repeat password" name="password2" required />
         </div>
         <div>
-          <input type="email" placeholder="email" name="email"/>
+          <input type="email" placeholder="email" name="email" required/>
         </div>
         {{!-- <div>
           <input type="file" name="photo"/>
@@ -30,17 +32,15 @@
           <button class="button" id="sendFormButton">отправить</button>
         </div>
       </form>
-
+       
       <form id="createForm" action="/api/user/auth" method="POST" class="container">
+      АВТОРИЗАЦИЯ
         <div>
           <input type="text" placeholder="login" name="login" required />
         </div>
         <div>
           <input type="text" placeholder="password" name="password" required />
         </div>
-        {{!-- <div>
-          <input type="file" name="photo"/>
-        </div> --}}
 
         <div>
           <button class="button" id="sendAuthFormButton">отправить</button>
@@ -50,5 +50,7 @@
 
      
     </div>
+</div>
+    
   </body>
 </html>

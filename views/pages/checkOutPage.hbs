@@ -1,0 +1,51 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title></title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/checkoutPageStyle.css" />
+    <script src="js/orderPageScript.js" defer></script>
+  </head>
+  <body>
+    {{> header}}
+
+    <div class="container">
+      <div class="userContacts">
+        <ul>
+          <h3>Контакты:</h3>
+          <li>Логин: <input type="text" value="{{login}}" id="loginInp"/></li>
+          <li>Почта: <input type="text" value="{{email}}" id="emailInp"/></li>
+        </ul>
+        Адрес ресторана:
+        <select name="adress" id="adressSelect"></select>
+
+      </div>
+      <div class="cart">
+        <h3>Корзина:</h3>
+        {{#each cart}}
+          <div class="card">
+            <h3>{{type}}</h3>
+            <p>{{adds}}</p>
+            <p>{{sause}}</p>
+            <img style="border: 1px solid black; margin: 5px;" src="/img/GK_shawa.png" alt="photo" class="cardImg" />
+
+            <button
+              class="button"
+              id="deleteButton"
+              style="background-color: red;"
+            >Удалить</button>
+
+          </div>
+
+        {{/each}}
+
+      </div>
+
+      <button class="button" id="sendOrderButton">
+        ЗАКАЗАТЬ ({{totalPrice}} руб)
+      </button>
+    </div>
+
+  </body>
+</html>

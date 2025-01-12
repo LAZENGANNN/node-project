@@ -1,41 +1,62 @@
 const path = require("path");
 
 const express = require("express");
-const { addUser, auth } = require("../controllers/usersController");
-const urlencodedParser = express.urlencoded({extended: false});
+const {
+  register1,
+  auth,
+  register2,
+  checkAuth,
+  fastAuth,
+  logOut,
+  getCart,
+} = require("../controllers/usersController");
+const urlencodedParser = express.urlencoded({ extended: false });
 
 const userRouter = express.Router();
 
-
-// userRouter.get("/", (req, res) => {
-//   res.status(200).sendFile(path.join(__dirname, "../public/html/orderPage.html"));
-// });
+const bodyParser = require("body-parser");
+userRouter.use(bodyParser.urlencoded({ extended: false }));
+userRouter.use(bodyParser.json());
 
 userRouter.use(express.static(path.join(process.cwd(), "public")));
 
-
-
-userRouter.get("/register", (req, res) => {
-    console.log(path.join(process.cwd(), "public"))
-
-  res.render("pages/registerPage.hbs")
+userRouter.get("/checkAuth", (req, res) => {
+  if (checkAuth(req, res)) {
+    res.redirect("http://localhost:7777/user/general");
+  } else {
+    res.redirect("http://localhost:7777/user/register");
+  }
 });
 
+userRouter.get("/register", (req, res) => {
+  res.render("pages/registerPage.hbs");
+});
+
+userRouter.get("/general", (req, res) => {
+  fastAuth(req, res);
+});
 
 //api
-userRouter.post("/create", urlencodedParser, (req, res)=>{
-    if(!req.body) return res.sendStatus(400);
-    addUser(req, res, req.body)  
-})
+userRouter.post("/create", urlencodedParser, (req, res) => {
+  if (!req.body) return res.sendStatus(400);
+  register1(req, res, req.body);
+});
 
-userRouter.post("/auth", urlencodedParser, (req, res)=>{
-  if(!req.body) return res.sendStatus(400);
-  auth(req, res, req.body)  
-})
+userRouter.post("/auth", urlencodedParser, (req, res) => {
+  if (!req.body) return res.sendStatus(400);
+  auth(req, res, req.body);
+});
 
-userRouter.get("/general", (req, res)=>{
+userRouter.post("/code", urlencodedParser, (req, res) => {
+  register2(req, res, req.body);
+});
 
-})
+userRouter.get("/logOut", (req, res) => {
+  logOut(req, res);
+});
 
+userRouter.post("/getCart", (req, res) => {
+  getCart(req, res);
+});
 
 module.exports = userRouter;

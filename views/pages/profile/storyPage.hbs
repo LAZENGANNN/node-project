@@ -1,0 +1,34 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title></title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/userPageStyle.css">
+    <script src="js/userPageScript.js" defer></script>
+</head>
+
+<body>
+    {{> header}}
+    <div class="container">
+
+    <div class="buttons">
+        <button id="b1" class="halfButton" style="background: none;">Персональная информация</button>
+        <button id="b2" class="halfButton">история заказов</button>
+      </div>
+
+    <div class="contentDiv">
+         {{#each shawa}}
+  <div class="card">
+    <h3>{{name}}</h3>
+    <img src="/img/GK_shawa.png" alt="photo" class="cardImg" />
+    <p>{{date}}</p>
+
+  </div>
+
+{{/each}}
+    </div>
+</body>
+
+</html>
