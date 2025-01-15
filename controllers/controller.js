@@ -1,7 +1,7 @@
 const { getData } = require("../data/dataController");
 
 
-//отправляет меню на сервер
+//отправляет меню клиенту
 const getAllMenu = (req, res) => {
   const menu = getData("shawa").shawa;
 
@@ -25,7 +25,7 @@ const getAllMenu = (req, res) => {
   res.render("card.hbs", objToRender);
 };
 
-//возвращает меню с фильтрами
+//отпраляет меню с фильтрами
 const getFiltedMenu = (req, res) => {
   const menu = getData("shawa").shawa;
 
