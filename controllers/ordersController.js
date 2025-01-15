@@ -2,6 +2,8 @@ const { getData, editData } = require("../data/dataController");
 const { calcPrice, calcTotalPrice } = require("../utils/calcPrice");
 const { checkAuth } = require("./usersController");
 
+
+//добавляет товар в кроизину
 const addToCart = (req, res) => {
   const sessionData = req.session.data;
   const obj = req.body;
@@ -30,13 +32,14 @@ const addToCart = (req, res) => {
     );
   } else {
     sessionData.currentUser.cart.push(obj);
-    console.log(sessionData.currentUser.cart);
     res.send(
       `товар ${obj.type} добавлен в корзину. для сохранения корзины авторизируйтесь`
     );
   }
 };
 
+
+//рендерит страницу заказа (checkoutPage)
 const checkout = (req, res) => {
   let users = getData("users");
   const sessionData = req.session.data;
@@ -62,6 +65,7 @@ const checkout = (req, res) => {
   }
 };
 
+//принимает заказ от клиента
 const acceptOrder = (req, res) => {
   if (checkAuth(req)) {
     const orders = getData("orders");
@@ -88,24 +92,79 @@ const acceptOrder = (req, res) => {
   }
 };
 
+
+//отслеживает статус заказа и рендерит нужную страницу
 const track = (req, res) => {
-  const sessionData = req.session.data;
-  const user = getData("users").find(
-    (el) => el.login === sessionData.currentUser.login
-  );
 
-  const order = getData("orders").find((el) => String(el.id) === req.query.id);
+  let order = getData("orders").find((el) => String(el.id) === req.query.id);
 
-  console.log(order);
+  console.log(order.status)
 
   const objToRender = {
     id: order.id,
     cart: order.cart,
     totalPrice: calcTotalPrice(order.cart),
     link: `http://localhost:7777/checkout/tracker?id=${order.id}`,
+    status: order.status,
   };
 
+  //отсчёт готовности
+  if (!order.isTimerWorks) {
+    let timerId = setTimeout(function tick() {
+      //скрипт который должен повторится
+      order.time -= 1;
+
+      const newData = getData("orders").map((el) => {
+        if (el.id === order.id) {
+          el.time -= 1;
+          el.isTimerWorks = true;
+          order = el
+          return el;
+        } else {
+          return el;
+        }
+      });
+
+      editData("orders", newData);
+
+      console.log(order.time);
+
+      //повтор
+      if (order.time >= 1) {
+        timerId = setTimeout(tick, 1000);
+      } else {
+        timerId = null;
+      }
+    }, 1000);
+  }
+
   res.render("pages/trackPage.hbs", objToRender);
+};
+
+
+//посылает на сервер отасвшееся время до готовности заказа
+const getTime = (req, res) => {
+  const queryPart = req.body.a;
+
+  const orderId = queryPart.slice(-6);
+
+  console.log(queryPart, orderId);
+
+  const order = getData("orders").find((el) => String(el.id) === orderId);
+
+  const toSend = order.time;
+
+  if(order.time <= 0){
+    res.send(`заказ готов`)
+  }
+  // else if(order.status === `готов`){
+  //   res.send(`заказ готов`)
+  // } 
+  else {
+    res.send(`${toSend}`);
+  }
+
+  
 };
 
 module.exports = {
@@ -113,4 +172,5 @@ module.exports = {
   checkout,
   acceptOrder,
   track,
+  getTime,
 };

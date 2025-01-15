@@ -1,6 +1,7 @@
 const path = require("path");
 const fs = require("fs");
 
+//возщвращает данные из файла filename
 function getData(fileName) {
   try {
     const filePath = path.join(__dirname, `../data/${fileName}.json`);
@@ -11,6 +12,7 @@ function getData(fileName) {
   }
 }
 
+//записывает newdata в файл filename
 function editData(fileName, newData) {
   try {
     const filePath = path.join(__dirname, `../data/${fileName}.json`);

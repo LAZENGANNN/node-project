@@ -1,3 +1,5 @@
+
+//отправляет запрос чтобы выйти из аккаунта
 async function logOut() {
   const response = await fetch("/api/user/logOut", {
     method: "GET",

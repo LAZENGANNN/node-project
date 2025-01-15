@@ -1,9 +1,0 @@
-// function sendOrderPage (res, req) {
-
-
-    
-// }
-
-
-
-

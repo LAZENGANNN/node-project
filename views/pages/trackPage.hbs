@@ -8,6 +8,7 @@
   <link rel="stylesheet" href="css/style.css" />
   <link rel="stylesheet" href="css/checkoutPageStyle.css">
   <script src="js/script.js" defer></script>
+  <script src="js/trackScript.js" defer></script>
 
 </head>
 
@@ -18,7 +19,7 @@
     <ul>
       <li>номер заказа: {{id}}</li>
       <li>сумма: {{totalPrice}} рублей</li>
-      <li>ссылка на трекер: <a href="{{link}}">{{link}}</a></li>
+      <li>ссылка на трекер: <a style="color:deepskyblue;" href="{{link}}">{{link}}</a></li>
     </ul>
     
     
@@ -34,6 +35,9 @@
     </div>
     {{/each}}
   </div>
+
+  <h3 style="text-align:center; border: 1px solid black;" id="timerH3"></h3>
+  <h3 style="text-align:center; border: 1px solid black;" id="statusH3">{{status}}</h3>
 
 </body>
 

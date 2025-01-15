@@ -5,6 +5,8 @@ const nodemailer = require("nodemailer");
 const gmailUser = process.env.GMAIL_USER;
 const gmailPasskey = process.env.GMAIL_PASS_KEY;
 
+
+//отпраляет письмо для регистрации
 const sendRegisterMail = (to, code) => {
   const transporter = nodemailer.createTransport({
     service: "Gmail",

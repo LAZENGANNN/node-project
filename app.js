@@ -31,7 +31,6 @@ app.use(
 // };
 
 app.use((req, res, next) => {
-  const data = ''
   if (!req.session.data) {
     req.session.data = {
       isAuth: false,

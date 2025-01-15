@@ -1,7 +1,7 @@
 const path = require("path");
 
 const express = require("express");
-const { addToCart, acceptOrder } = require("../controllers/ordersController");
+const { addToCart, acceptOrder, getTime } = require("../controllers/ordersController");
 
 const orderRouter = express.Router();
 
@@ -29,5 +29,9 @@ orderRouter.post("/add", (req, res) => {
 orderRouter.post("/create", (req, res) => {
   acceptOrder(req, res);
 });
+
+orderRouter.post("/time", (req, res)=>{
+  getTime(req, res)
+})
 
 module.exports = orderRouter;

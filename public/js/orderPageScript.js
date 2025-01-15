@@ -1,3 +1,5 @@
+
+//дообавляет option в select
 async function getAddsOptions() {
   const response = await fetch("/api/menu/adds", {
     method: "GET",
@@ -39,6 +41,7 @@ async function getAddsOptions() {
   });
 }
 
+//отпраляет запрос в коризину
 async function sendPOSTtoCart() {
   const sendData = {
     type: shawaTypeSelect.value,
@@ -59,18 +62,7 @@ async function sendPOSTtoCart() {
   alert(responseText);
 }
 
-async function getUserData() {
-  const response = await fetch("/api/user/getCart", {
-    method: "GET",
-    headers: {
-      "Content-Type": "application/json",
-    },
-  });
-
-  let cart = await response.json();
-}
-
-//адреса
+//добваляет в select адреса
 if (document.getElementById("adressSelect")) {
   console.log(document.getElementById("adressSelect"));
   async function getAddressesS() {
@@ -94,6 +86,7 @@ if (document.getElementById("adressSelect")) {
   getAddressesS();
 }
 
+//формирует и отпраляет запрос с заказом
 async function sendOrder() {
   const response1 = await fetch("/api/user/getCart", {
     method: "POST",
@@ -105,15 +98,23 @@ async function sendOrder() {
 
   let cart = await response1.json();
 
+  if (cart.length === 0) {
+    alert("сначала добввьте товары в корзину");
+    return;
+  }
+
   const order = {
     id: Math.floor(Math.random() * 999999),
     user: {
       login: loginInp.value,
       email: emailInp.value,
     },
-    data: new Date(),
+    time: 15 * 60,
+    //мин*сек
     adress: adressSelect.value,
     cart: cart,
+    isTimerWorks: false,
+    status: "готовится",
   };
 
   console.log(cart);
@@ -130,12 +131,11 @@ async function sendOrder() {
 
   let loc = await response2.text();
 
-  if(loc.includes("localhost")){
+  if (loc.includes("localhost")) {
     window.location = loc;
-  }else{
-    alert(loc)
+  } else {
+    alert(loc, "||с сервера пришёл неверный адрес||");
   }
-  
 }
 
 if (sendOrderButton) {
@@ -144,8 +144,10 @@ if (sendOrderButton) {
   });
 }
 
-orderFormButton.addEventListener("click", () => {
-  sendPOSTtoCart();
-});
+if (orderFormButton) {
+  orderFormButton.addEventListener("click", () => {
+    sendPOSTtoCart();
+  });
+}
 
 getAddsOptions();

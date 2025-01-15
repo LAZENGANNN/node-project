@@ -1,14 +1,15 @@
 const { getData } = require("../data/dataController");
 
+//обе функции сятают цену
+
 const calcPrice = (obj) => {
   const shawaData = getData("shawa").shawa;
 
-  const thatShawa = shawaData.map((el) => {
-    if (el.name === obj.type) {
-      return el.price;
-    }
+  const thatShawa = shawaData.find((el) => {
+   return el.name === obj.type;
   });
-  return thatShawa[0];
+
+  return thatShawa.price;
 
   //если добавки  и соусы платные:
 
@@ -24,7 +25,7 @@ const calcPrice = (obj) => {
 const calcTotalPrice = (arr) => {
   let totalPrice = 0;
 
-    console.log(arr)
+  console.log(arr);
 
   arr.map((el) => {
     totalPrice += el.price;

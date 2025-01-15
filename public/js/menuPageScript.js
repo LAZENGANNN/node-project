@@ -1,3 +1,5 @@
+
+//применяет фильты
 async function queryFilters() {
   const maxPrice = maxPriceInp.value;
   const minPrice = minPriceInp.value;
@@ -19,8 +21,6 @@ async function queryFilters() {
   loc = loc.slice(0, loc.length - 1);
 
   window.location = loc;
-
-  console.log("c");
 }
 const query = new URLSearchParams(window.location.search);
 if (query.has("maxPrice")) maxPriceInp.value = query.get("maxPrice");

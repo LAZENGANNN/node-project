@@ -1,4 +1,6 @@
-async function getAll() {
+
+//отпраляет запрос за карточкаи продуктов и добваляет их на страницу
+async function getAllProds() {
   const response = await fetch("/api/menu/get", {
     method: "GET",
     headers: {
@@ -11,7 +13,7 @@ async function getAll() {
   resultDiv.innerHTML = responseText;
 }
 
-getAll();
+getAllProds();
 
 const menuButton = document.getElementById("menuButton");
 
@@ -21,13 +23,3 @@ menuButton.addEventListener("click", () => {
   window.location = "/menu";
 });
 
-// async function sendPOSTfromCard(){
-
-//   const response = await fetch("/api/order/send", {
-//     method: "GET",
-//     headers: {
-//       "Content-Type": "application/json",
-//     },
-//   });
-
-// }

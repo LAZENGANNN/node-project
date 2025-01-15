@@ -1,8 +1,7 @@
 const { getData } = require("../data/dataController");
 
-const path = require("path");
-const fs = require("fs");
 
+//отправляет меню на сервер
 const getAllMenu = (req, res) => {
   const menu = getData("shawa").shawa;
 
@@ -26,6 +25,7 @@ const getAllMenu = (req, res) => {
   res.render("card.hbs", objToRender);
 };
 
+//возвращает меню с фильтрами
 const getFiltedMenu = (req, res) => {
   const menu = getData("shawa").shawa;
 
@@ -59,6 +59,7 @@ const getFiltedMenu = (req, res) => {
   res.render("pages/menuPage.hbs", objToRender);
 };
 
+//отпраляет соусы и добавки
 const getOptions = (req, res) => {
   const menu = getData("shawa").shawa;
 
@@ -76,22 +77,11 @@ const getOptions = (req, res) => {
   res.send(JSON.stringify(opts));
 };
 
+//отпраляет адреса 
 const getAddresses = (req, res) => {
   const adds = getData("adresses");
 
   res.send(JSON.stringify(adds));
-};
-
-const getShawaNames = () => {
-  const menu = getData("shawa").shawa;
-
-  const names = [];
-
-  menu.map((el) => {
-    names.push(el.name);
-  });
-
-  res.send(names);
 };
 
 module.exports = {

@@ -9,6 +9,7 @@ const {
   fastAuth,
   logOut,
   getCart,
+  story,
 } = require("../controllers/usersController");
 const urlencodedParser = express.urlencoded({ extended: false });
 
@@ -35,6 +36,10 @@ userRouter.get("/register", (req, res) => {
 userRouter.get("/general", (req, res) => {
   fastAuth(req, res);
 });
+
+userRouter.get("/story", (req, res)=>{
+ story(req, res)
+})
 
 //api
 userRouter.post("/create", urlencodedParser, (req, res) => {

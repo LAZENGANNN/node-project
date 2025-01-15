@@ -1,12 +1,13 @@
 const { getData, editData } = require("../data/dataController");
 
-const path = require("path");
-const fs = require("fs");
+
 const { sendRegisterMail } = require("../utils/mails");
 const { getRandomInt } = require("../utils/randomtron");
 
+
+//проверяет авторизован ли пользователь
 const checkAuth = (req, res) => {
-  console.log(req.session.data);
+  // console.log(req.session.data);
   if (req.session.data.isAuth) {
     return true;
   } else {
@@ -14,6 +15,7 @@ const checkAuth = (req, res) => {
   }
 };
 
+//1й этап регитрации - принимает данные и отправляет письмо
 const register1 = (req, res, userData) => {
   const password = userData.password;
 
@@ -38,6 +40,7 @@ const register1 = (req, res, userData) => {
   }
 };
 
+//2й этап регитсрации - проверка письма
 const register2 = (req, res, userData) => {
   const emailCode = req.session.data.regCode;
 
@@ -47,12 +50,21 @@ const register2 = (req, res, userData) => {
     data.push(user);
     editData("users", data);
 
+    req.session.data = {
+      isAuth: false,
+      currentUser: {
+        login: null,
+        cart: [],
+      },
+    };
+
     res.send(`регистрация успешна<br><a href="/">на главную</a>`);
   } else {
-    res.send(`неверный код`);
+    res.send(`неверный код<br><a href="/">на главную</a>`);
   }
 };
 
+//fавторизация пользователя
 const auth = (req, res, userData) => {
   const data = getData("users");
 
@@ -72,7 +84,7 @@ const auth = (req, res, userData) => {
     //синхронизация корзины пользователя и корзины из сессии
     const newUsersData = data.map((el) => {
       if (el.login === user.login) {
-        const sessionCart = req.session.data.currentUser.cart
+        const sessionCart = req.session.data.currentUser.cart;
         el.cart.push(...sessionCart);
         req.session.data.currentUser.cart = el.cart;
         return el;
@@ -86,6 +98,7 @@ const auth = (req, res, userData) => {
   }
 };
 
+//при нажатии н аиконку пользователя сразу перекидывает на нужную страницу без необходимости авторизовываться еще раз
 const fastAuth = (req, res) => {
   const data = getData("users");
 
@@ -100,6 +113,22 @@ const fastAuth = (req, res) => {
   res.render("pages/profile/userPage.hbs", currentUserArr[0]);
 };
 
+//рендерит страницу с истоией заказов
+const getStory = (req, res) => {
+  const users = getData("users");
+
+  const sessionData = req.session.data;
+  const AuthedLogin = sessionData.currentUser.login;
+
+  const currentUserArr = users.filter((el) => {
+    const user = el.login === AuthedLogin;
+    return user === true;
+  });
+
+  res.render("pages/profile/storyPage.hbs", currentUserArr[0]);
+};
+
+//выход из аккаунта
 const logOut = (req, res) => {
   const sessionData = req.session.data;
   sessionData.isAuth = false;
@@ -108,6 +137,7 @@ const logOut = (req, res) => {
   res.send("вы вышли из профиля");
 };
 
+//отправляет на сервер корзину
 const getCart = (req, res) => {
   if (checkAuth(req)) {
     const data = getData("users");
@@ -139,4 +169,5 @@ module.exports = {
   fastAuth,
   logOut,
   getCart,
+  story: getStory,
 };
